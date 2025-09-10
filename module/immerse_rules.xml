@@ -200,4 +200,5 @@
     <package name="flar2.devcheck" enable="true" activityRule="*:2"/>
     <package name="com.xjcheng.musictageditor" enable="true" activityRule="*:2"/>
     <package name="com.byd.aeri.caranywhere" enable="false" activityRule="*:2"/>
+    <package name="cn.ninebot.ninebot" enable="true" activityRule="cn.ninebot.react.NBReactActivity:2,cn.ninebot.device.dynamic.sub.DynamicListActivity:2"/>
 </NBIRules>
