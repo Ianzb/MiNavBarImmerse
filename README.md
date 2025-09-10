@@ -12,7 +12,7 @@
 
 # 适配范围
 
-Xiaomi HyperOS 2.2及以上版本的机型，解锁root权限，能够刷入Magisk标准的模块。
+搭载Xiaomi HyperOS 2.2 - 3的机型，解锁root权限，能够刷入Magisk标准的模块。
 
 # 开发
 
