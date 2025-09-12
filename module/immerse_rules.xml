@@ -3,7 +3,7 @@
     <package name="com.achievo.vipshop" enable="true" activityRule="com.achievo.vipshop.productdetail.activity.ProductDetailActivity:1:1,com.achievo.vipshop.userfav.activity.FavorActivity:1:1,com.achievo.vipshop.cart.activity.VipCartActivity:1:1"/>
     <package name="com.seetong.app.seetong" enable="true" activityRule="com.seetong.app.seetong.ui.AboutActivity:1:1"/>
     <package name="com.luna.music" enable="true" activityRule="com.luna.biz.main.main.MainActivity:2"/>
-    <package name="com.xunmeng.pinduoduo" enable="true" activityRule="com.xunmeng.pinduoduo.activity.NewPageActivity:1:1"/>
+    <package name="com.xunmeng.pinduoduo" enable="true" activityRule="*:2,com.xunmeng.pinduoduo.ui.activity.MainFrameActivity:1:0"/>
     <package name="com.xunlei.downloadprovider" enable="true" activityRule="com.xunlei.downloadprovider.frame.MainTabActivity:0,com.xunlei.browser.XLBrowserActivity:0"/>
     <package name="com.tmall.wireless" enable="true" activityRule="com.tmall.wireless.themis.container.TMThemisActivity:2"/>
     <package name="com.sf.activity" enable="true" activityRule="com.sf.activity.DefaultActivity:1:-1,com.sf.activity.CustomActivity:1:-1"/>
@@ -27,7 +27,7 @@
     <package name="com.bankcomm.Bankcomm" enable="false"/>
     <package name="com.sohu.newsclient" enable="true" activityRule="com.sohu.newsclient.videodetail.ImmersiveVideoActivity:1:1,com.sohu.newsclient.listensquare.ListenNewsSquareActivity:1:1"/>
     <package name="com.sankuai.meituan.dispatch.crowdsource" enable="true"/>
-    <package name="com.xingin.xhs" enable="true" activityRule="com.xingin.alioth.search.GlobalSearchActivity:2,*:0,com.xingin.matrix.detail.activity.DetailFeedActivity:1:1"/>
+    <package name="com.xingin.xhs" enable="true" activityRule="*:2,com.xingin.xhs.index.v2.IndexActivityV2:0,com.xingin.reactnative.ui.XhsReactActivity:2,com.xingin.im.ui.activity.ChatActivity:0,com.xingin.matrix.notedetail.NoteDetailActivity:0,com.xingin.matrix.detail.activity.DetailFeedActivity:1:0,com.xingin.matrix.setting.about.AboutActivity:2,com.xingin.im.ui.activity.GroupChatActivity:0"/>
     <package name="com.qidian.QDReader" enable="true" activityRule="com.qidian.QDReader.ui.activity.CirclePostDetailActivity:1:1,com.qidian.QDReader.ui.activity.CirclePostCommentDetailActivity:1:1,com.qidian.QDReader.ui.activity.QDRecomBooksCommentsActivity:1:1,com.qidian.QDReader.ui.activity.RecomBookListDetailActivity:1:1,com.qidian.QDReader.flutter.GameCenterFlutterActivity:1:1,com.qidian.QDReader.ui.activity.QDReaderActivity:0,com.qidian.QDReader.ui.activity.MainGroupActivity:1:1"/>
     <package name="com.tencent.gamehelper.smoba" enable="true" activityRule="com.tencent.tga.liveplugin.live.LiveActivity:0,com.tencent.gamehelper.ui.search2.SearchActivityFlutter2:0,com.tencent.gamehelper.ui.main.MainActivity:1:1"/>
     <package name="com.ss.android.article.video" enable="true" activityRule="com.ixigua.openliveplugin.live.LivePlayerActivity:0,com.bytedance.android.shopping.anchorv4.containers.AnchorV4Activity:1:1,com.ss.android.article.video.activity.SplashActivity:0,com.ixigua.openliveplugin.live.OpenLiveDummyActivity:1:1"/>
@@ -87,8 +87,7 @@
     <package name="com.qqgame.hlddz" enable="false"/>
     <package name="com.taobao.etao" enable="true" activityRule="com.taobao.etao.detail.EtaoGoodsDetailNAActivity:1:1"/>
     <package name="com.wisedu.cpdaily" enable="false"/>
-    <package name="com.netease.cloudmusic" enable="false"/>
-    <package name="com.autonavi.minimap" enable="false"/>
+    <package name="com.netease.cloudmusic" enable="true" activityRule="*:2,com.netease.cloudmusic.activity.MainActivity:0,com.netease.cloudmusic.music.biz.search.activity.SearchActivity:0,com.netease.cloudmusic.activity.PlayListActivity:0,com.netease.cloudmusic.music.biz.comment.activity.CommentActivity:1:0"/>
     <package name="com.tencent.zebra" enable="true"/>
     <package name="com.kwai.videoeditor" enable="true" activityRule="com.kwai.krn.KrnKyActivity:0,com.kwai.videoeditor.vega.slideplay.v2.activity.SlidePlayActivityV2:0,com.kwai.videoeditor.activity.WebActivity:0"/>
     <package name="com.tencent.gamehelper.pg" enable="true" activityRule="com.tencent.gamehelper.ui.chat.ChatActivity:1:1,com.tencent.g4p.normallive.NormalLiveActivity:0,com.tencent.gamehelper.ui.personhomepage.HomePageActivity:1:1,com.tencent.tga.liveplugin.live.LivePlayerActivity:0,com.tencent.gamehelper.videolist.RecommendVideoListActivity:1:1"/>
@@ -142,7 +141,7 @@
     <package name="ctrip.android.view" enable="true" activityRule="ctrip.android.destination.story.media.MediaSelectActivity:1:-1,ctrip.android.reactnative.preloadv2.CRNBaseActivityV2:1:1,ctrip.android.flutter.containers.TransparentTripFlutterActivity:1:-1"/>
     <package name="com.kwai.theater" enable="true" activityRule="com.kwai.theater.api.component.HomeActivity:0"/>
     <package name="com.zwo.seestar" enable="true" activityRule="*:2,com.lxj.xpopup.core.FullScreenDialog:1:-15066071"/>
-    <package name="com.umetrip.android.msky.app" enable="true" activityRule="*:1:-1"/>
+    <package name="com.umetrip.android.msky.app" enable="true" activityRule="*:2"/>
     <package name="com.rosan.installer.x" enable="true" activityRule="*:2"/>
     <package name="com.android.email" enable="true" activityRule="*:2"/>
     <package name="com.xiaomi.shop" enable="true" activityRule="*:2,com.xiaomi.shop2.activity.MainActivity:0,com.xiaomi.miot.store.mirn.RNMainActivity:0,com.xiaomi.shop.sharelib.ShareDialog:0"/>
@@ -151,26 +150,26 @@
     <package name="com.iflytek.elpmobile.smartlearning" enable="true" activityRule="*:2"/>
     <package name="com.iflytek.elpmobile.student" enable="true" activityRule="*:2"/>
     <package name="com.baidu.BaiduMap" enable="true" activityRule="*:2"/>
-    <package name="com.baidu.netdisk" enable="true" activityRule="*:2,com.baidu.netdisk.ui.MainActivity:0"/>
+    <package name="com.baidu.netdisk" enable="true" activityRule="*:2,com.baidu.netdisk.ui.MainActivity:0,com.baidu.netdisk.album.AlbumServiceActivity:0,com.baidu.netdisk.ui.cloudfile.MyCategoryActivity:0,com.baidu.netdisk.aigc.ui.activity.CloudPieceActivity:0"/>
     <package name="com.zidongdianji" enable="true" activityRule="com.autoclicker.clicker.MainActivity:1:-328966"/>
     <package name="com.baidu.baidutranslate" enable="true" activityRule="*:2"/>
     <package name="com.baidu.newapp" enable="true" activityRule="*:2,CustomDrawerLayout:0"/>
-    <package name="com.eg.android.AlipayGphone" enable="true" activityRule="*:2,com.eg.android.AlipayGphone.AlipayLogin:0,com.alipay.mobile.nebulax.xriver.activity.XRiverActivity:0,com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main:0,com.antfortune.wealth.stock.StockMainActivity:0"/>
-    <package name="com.tencent.mm" enable="true" activityRule="com.tencent.mm.ui.conversation.NewBizConversationUI:1:1,com.tencent.mm.plugin.sns.ui.SnsCommentDetailUI:0,com.tencent.mm.plugin.appbrand.ui.AppBrandPluginUI:2"/>
+    <package name="com.eg.android.AlipayGphone" enable="true" activityRule="*:2,com.eg.android.AlipayGphone.AlipayLogin:0,com.alipay.mobile.nebulax.xriver.activity.XRiverActivity:0,com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$App01:0,com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$App02:0,com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$App03:0,com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$App04:0,com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$App05:0,com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main:0,com.antfortune.wealth.stock.StockMainActivity:1:0,com.alipay.mobile.antcardsdk.cardapp.CSPushActivity:2,com.antfortune.wealth.stock.common.cube.page.CubePageActivity:1:0,com.alipay.android.phone.xriver.bundlex.CSGAPushActivity:1:-1,com.alipay.mobile.chatapp.ui.PersonalChatMsgActivity_:1:0"/>
+    <package name="com.tencent.mm" enable="true" activityRule="*:2,com.tencent.mm.ui.conversation.NewBizConversationUI:1:1,com.tencent.mm.plugin.sns.ui.SnsCommentDetailUI:0,com.tencent.mm.plugin.appbrand.ui.AppBrandPluginUI:2,com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI:1:0,com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI:0,com.tencent.mm.plugin.lite.ui.WxaLiteAppSheetUI:1:0,com.tencent.mm.ui.LauncherUI:0"/>
     <package name="com.oray.sunlogin" enable="true" activityRule="*:2"/>
     <package name="com.xiwang.youke" enable="true" activityRule="*:2,com.xueersi.parentsmeeting.module.home.HomeV2Activity:0"/>
     <package name="com.xiwang.zaixian" enable="true" activityRule="*:2,com.xueersi.parentsmeeting.module.home.HomeV2Activity:0"/>
     <package name="com.xueersi.parentsmeeting" enable="true" activityRule="*:2,com.xueersi.parentsmeeting.module.home.HomeV2Activity:0"/>
     <package name="com.tal.imonkey.chinese" enable="true" activityRule="*:2,com.tal.imonkey.business.launch.activity.MainActivity:0"/>
-    <package name="com.taobao.taobao" enable="true" activityRule="com.taobao.search.searchdoor.SearchDoorActivity:0,com.taobao.android.tbabilitykit.pop.StdPopActivityGroup:0,com.taobao.browser.BrowserActivity:0,com.taobao.message.activity.ChatActivityV2:0,com.taobao.android.detail2.core.framework.NewDetailActivity:2,com.taobao.android.detail.wrapper.activity.DetailActivity:1:1,com.taobao.themis.container.app.TMSActivity:0,com.taobao.message.activity.ChatActivity:0,com.taobao.taolive.room.TaoLiveVideoActivity:0,com.taobao.taolivehome.TaoLiveHomepageActivity:0,com.taobao.android.detail.alittdetail.TTDetailActivity:0,com.taobao.weex.weexv2.page.WeexV2Activity:0,com.taobao.search.uniform.SearchActivity:2,com.taobao.tao.welcome.Welcome:0"/>
-    <package name="tv.danmaku.bili" enable="true" activityRule="*:2,tv.danmaku.bili.MainActivityV2:0,com.bilibili.app.preferences.BiliPreferencesActivity:0,bs.c:0,com.bilibili.app.comm.opus.lightpublish.page.comment.CommentLightPublishDialogFragment$c:0,com.bilibili.lib.ui.menu.BottomDialogMenu:0"/>
+    <package name="com.taobao.taobao" enable="true" activityRule="*:2,com.taobao.search.searchdoor.SearchDoorActivity:0,com.taobao.android.tbabilitykit.pop.StdPopActivityGroup:0,com.taobao.browser.BrowserActivity:2,com.taobao.message.activity.ChatActivityV2:1:0,com.taobao.android.detail2.core.framework.NewDetailActivity:2,com.taobao.android.detail.wrapper.activity.DetailActivity:1:0,com.taobao.themis.container.app.TMSActivity:1:-1,com.taobao.message.activity.ChatActivity:1:0,com.taobao.taolive.room.TaoLiveVideoActivity:2,com.taobao.taolivehome.TaoLiveHomepageActivity:1:0,com.taobao.android.detail.alittdetail.TTDetailActivity:0,com.taobao.weex.weexv2.page.WeexV2Activity:2,com.taobao.search.uniform.SearchActivity:2,com.taobao.tao.welcome.Welcome:0,com.alibaba.triver.triver_shop.newShop.ShopActivity:1:0,com.taobao.android.purchase.aura.TBBuyActivity:1:0"/>
+    <package name="tv.danmaku.bili" enable="true" activityRule="*:2,tv.danmaku.bili.MainActivityV2:0,com.bilibili.app.preferences.BiliPreferencesActivity:2,bs.c:0,com.bilibili.app.comm.opus.lightpublish.page.comment.CommentLightPublishDialogFragment$c:0,com.bilibili.lib.ui.menu.BottomDialogMenu:0,tv.danmaku.bili.ui.videodownload.VideoDownloadListActivity:1:0,com.bilibili.lib.ui.ComposeActivity:1:0,tv.danmaku.bili.ui.webview.MWebActivity:2,com.bilibili.bplus.im.conversation.ConversationActivity:0"/>
     <package name="com.dragon.read" enable="true" activityRule="com.dragon.community.impl.detail.dialog.c:2,com.dragon.read.component.biz.impl.bookshelf.bookgroup.BookGroupActivity:2,com.dragon.read.plugin.live.web.OpenLiveWebViewActivity:1:1,com.dragon.read.reader.ui.ReaderActivity:0,com.bytedance.android.openlive.plugin.OpenLiveDummyActivity:1:1,com.bytedance.android.shopping.anchorv4.containers.AnchorV4Activity:1:1,com.dragon.read.component.shortvideo.impl.ShortSeriesActivity:0,com.dragon.read.component.biz.impl.bookshelf.moredetail.BookshelfMoreDetailDialog:0"/>
-    <package name="com.MobileTicket" enable="false" activityRule="*:2,com.MobileTicket.ui.activity.MainActivity:0"/>
-    <package name="com.jingdong.app.mall" enable="true" activityRule="*:2,com.jingdong.app.mall.MainFrameActivity:0,com.jd.lib.ttt.page.TTTMultiPageActivity:0"/>
-    <package name="com.taobao.idlefish" enable="true" activityRule="*:2,com.taobao.idlefish.maincontainer.activity.MainActivity:1:0,com.taobao.idlefish.detail.DetailActivity:0"/>
+    <package name="com.MobileTicket" enable="true" activityRule="*:1:0,com.MobileTicket.ui.activity.MainActivity:1:0,com.MobileTicket.scan.as.tool.ToolsCaptureActivity:2"/>
+    <package name="com.jingdong.app.mall" enable="true" activityRule="*:2,com.jingdong.app.mall.MainFrameActivity:0,com.jd.lib.productdetail.ProductDetailActivity:2,com.jd.lib.jshop.jshop.JshopMainShopActivity:1:0,com.jingdong.common.jdreactFramework.activities.JDReactNativeCommonActivity:2,com.jd.lib.ttt.page.TTTMultiPageActivity:2"/>
+    <package name="com.taobao.idlefish" enable="true" activityRule="*:2,com.taobao.idlefish.maincontainer.activity.MainActivity:1:0,com.taobao.idlefish.detail.DetailActivity:1:0,com.taobao.idlefish.content.PostContentActivity:1:0,com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity:2,com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostTransparencyActivity:2"/>
     <package name="com.sankuai.meituan" enable="true" activityRule="*:2,com.meituan.android.pt.homepage.activity.MainActivity:0"/>
-    <package name="com.dianping.v1" enable="true" activityRule="*:2,com.dianping.v1.NovaMainActivity:0"/>
-    <package name="com.mfcloudcalculate.networkdisk" enable="true" activityRule="*:2"/>
+    <package name="com.dianping.v1" enable="true" activityRule="*:2,com.dianping.v1.NovaMainActivity:1:0,com.dianping.social.activity.NewFeedDetailActivity:1:0,com.dianping.voyager.poi.GCPOIDetailActivity:0,com.dianping.gcmrn.ssr.GCMRNSSRActivity:2,com.dianping.tuan.activity.DealDetailAgentActivity:0,com.meituan.android.mrn.container.MRNBaseActivity:0,com.meituan.android.mrn.container.MRNStandardActivity:0,com.dianping.nova.picasso.DPPicassoBoxActivity:2,com.dianping.shopshell.PexusPoiActivity:0,com.dianping.movie.trade.home.MovieMainActivity:0,com.dianping.movie.activity.DpMovieDetailActivity:2,com.meituan.android.movie.tradebase.activity.MovieCinemaListActivity:2,com.meituan.android.movie.tradebase.activity.SelectSeatActivity:0,com.meituan.android.movie.tradebase.activity.PaySeatActivity:0,com.dianping.movie.trade.MovieTitansActivity:0,com.sankuai.waimai.business.page.homepage.TakeoutActivity:0,com.sankuai.waimai.store.drug.home.NewDrugHomeActivity:0,com.meituan.msc.modules.container.MSCActivity:0,com.sankuai.xm.imui.session.SessionActivity:0,com.dianping.gcmrn.ssr.GCMRNSSRActivity:0"/>
+     <package name="com.mfcloudcalculate.networkdisk" enable="true" activityRule="*:2,com.mfcloudcalculate.networkdisk.MainActivity:0"/>
     <package name="com.didjdk.adbhelper" enable="true" activityRule="com.didjdk.adbhelper.FastbootActivity:2"/>
     <package name="io.legado.app.release" enable="true" activityRule="*:2,io.legado.app.ui.main.MainActivity:0,io.legado.app.ui.book.read.ReadBookActivity:0,io.legado.app.ui.config.ConfigActivity:0"/>
     <package name="com.bubblesoft.android.bubbleupnp" enable="true" activityRule="*:2,com.bubblesoft.android.bubbleupnp.MainTabActivity:0"/>
@@ -183,22 +182,41 @@
     <package name="com.byyoung.setting" enable="true" activityRule="*:2"/>
     <package name="bin.mt.plus" enable="true" activityRule="*:2,com.byyoung.setting.HomePage.activitys.MainActivity:0"/>
     <package name="dev.miuiicons.pedroz" enable="true" activityRule="*:2"/>
-    <package name="com.microsoft.emmx" enable="false" activityRule="*:2"/>
+    <package name="com.microsoft.emmx" enable="true" activityRule="*:2,org.chromium.chrome.browser.edge_settings.EdgeSettingsActivity:2"/>
     <package name="com.houvven.guise" enable="true" activityRule="*:2"/>
     <package name="com.tencent.mobileqq" enable="true" activityRule="com.tencent.mobileqq.activity.QPublicFragmentActivity:2"/>
     <package name="com.github.android" enable="true" activityRule="*:2"/>
     <package name="com.twtapp" enable="false" activityRule="*:2"/>
     <package name="com.minecraft.free" enable="true" activityRule="*:2"/>
     <package name="com.xiaomi.smarthome" enable="true" activityRule="com.xiaomi.miot.store.ui.MiotStoreMainActivity:2,com.xiaomi.smarthome.miio.consumables.ConsumablesCenterActivity:2"/>
-    <package name="com.mi.health" enable="false" activityRule="com.xiaomi.wearable.yrn.views.WearableRNActivity:2"/>
+    <package name="com.mi.health" enable="true" activityRule="*:2,com.xiaomi.fitness.main.MainActivity:2,com.xiaomi.wearable.yrn.views.WearableRNActivity:2"/>
     <package name="com.baidu.searchbox" enable="true" activityRule="com.baidu.sapi2.activity.AccountCenterActivity:2,com.baidu.searchbox.godeye.CodeScannerActivity:2,com.baidu.swan.apps.SwanAppActivity:2,com.baidu.searchbox.AboutBaiduSettingsActivity:2,com.baidu.searchbox.VideoPlaySettingActivity:2,com.baidu.searchbox.push.set.MsgSetActivity:2,com.baidu.payment.impl.ext.setting.PaymentSettingsActivity:2,com.baidu.searchbox.FloatingSettingActivity:2,com.baidu.searchbox.VideoAutoPlaySettingsActivity:2"/>
     <package name="cn.com.whty.cqt" enable="true" activityRule="*:2"/>
     <package name="com.ubnt.usurvey" enable="true" activityRule="*:2"/>
-    <package name="com.xiaomi.vipaccount" enable="true" activityRule="com.xiaomi.vipaccount.newbrowser.NormalWebActivity:2,com.xiaomi.vipaccount.newbrowser.NormalWebActivity:2"/>
+    <package name="com.xiaomi.vipaccount" enable="true" activityRule="com.xiaomi.vipaccount.newbrowser.NormalWebActivity:2"/>
     <package name="com.xiaomi.router" enable="true" activityRule="*:1:0"/>
     <package name="com.shenyaocn.android.usbcamera" enable="true" activityRule="*:2"/>
     <package name="flar2.devcheck" enable="true" activityRule="*:2"/>
     <package name="com.xjcheng.musictageditor" enable="true" activityRule="*:2"/>
     <package name="com.byd.aeri.caranywhere" enable="false" activityRule="*:2"/>
     <package name="cn.ninebot.ninebot" enable="true" activityRule="cn.ninebot.react.NBReactActivity:2,cn.ninebot.device.dynamic.sub.DynamicListActivity:2"/>
+    <package name="com.autonavi.minimap" enable="true" activityRule="*:1:0,"/>
+    <package name="github.tornaco.android.thanos" enable="true" activityRule="*:1:0"/>
+    <package name="com.nowcoder.app.florida" enable="true" activityRule="*:0,com.nowcoder.app.nc_core.common.web.view.NCWebActivity:2,com.nowcoder.app.florida.modules.message.view.NCChatSessionListActivity:2,com.nowcoder.app.florida.modules.userPage.UserPageActivity:2"/>
+    <package name="com.sdu.didi.psnger" enable="true" activityRule="*:2,com.didi.ride.dimina.DMActivity:1:0,com.didi.sdk.app.MainActivity:2,com.didi.sdk.scan.act.QrCodeScanActivity:2"/>
+    <package name="me.ele" enable="true" activityRule="*:2,me.ele.application.ui.Launcher.LauncherActivity:1:-1,me.ele.muise.page.WeexPageActivity:2,me.ele.im.limoo.activity.LIMActivity:1:-1,me.ele.shopdetailv2.lmagex.ShopDetailV3Activity:1:-1,me.ele.android.emagex.container.EMagexActivity:1:-1"/>
+    <package name="com.microsoft.todos" enable="true" activityRule="*:2"/>
+    <package name="com.mutangtech.qianji" enable="true" activityRule="*:2"/>
+    <package name="cn.edu.fzu.fdxypa" enable="true" activityRule="*:2"/>
+    <package name="com.yiban.app" enable="true" activityRule="*:2,com.yiban.app.home.activity.HomeActivityV2:1:-1,com.yiban.app.activity.SettingMainActivity:1:-1"/>
+    <package name="com.zzw.october" enable="true" activityRule="*:2,com.zzw.october.MainActivity:1:-1"/>
+    <package name="com.jiongji.andriod.card" enable="true" activityRule="*:2,com.baicizhan.main.activity.MainTabActivity:1:0"/>
+    <package name="com.hz.smartsports" enable="true" activityRule="*:2,com.hz.smartsports.ui.activity.MainActivity:1:-1"/>
+    <package name="cn.unipus.cloud" enable="true" activityRule="*:2,cn.unipus.cloud.mvvm.view.activity.MainActivity:1:-1,cn.unipus.cloud.my.student.mvvm.view.activity.UserInfoDetailActivity:1:-1"/>
+    <package name="cn.com.chsi.chsiapp" enable="true" activityRule="*:2,cn.com.chsi.chsiapp.MainActivity:1:-1"/>
+    <package name="com.netease.edu.ucmooc" enable="true" activityRule="*:2,com.netease.edu.ucmooc.activity.ActivityMain:1:-1,com.netease.edu.ucmooc.postgraduateexam.activity.ActivityCoursePackage:1:-1,com.netease.edu.ucmooc.postgraduateexam.activity.ActivityPostgraduateCourseDetail:1:-1,com.netease.edu.ucmooc.homepage.activity.ActivityCourseIntroduce:1:-1"/>
+    <package name="com.plan.kot32.tomatotime" enable="true" activityRule="*:2,com.plan.kot32.tomatotime.activity.MainActivity:1:-1"/>
+    <package name="com.clover.idaily" enable="true" activityRule="*:2"/>
+    <package name="com.hexin.plat.android" enable="true" activityRule="*:2,com.hexin.plat.android.Hexin:1:0,com.hexin.android.bank.funddetail.funddetail.ui.main.FundDetailActivity:1:0"/>    
+    <package name="gov.pianzong.androidnga" enable="true" activityRule="*:2"/>
 </NBIRules>
