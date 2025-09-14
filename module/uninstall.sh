@@ -17,10 +17,6 @@ if [ -f "$BACKUP_FILE" ]; then
     if cp -f "$BACKUP_FILE" "$TARGET_FILE"; then
         echo "已成功恢复原始文件！"
 
-        # 设置正确权限
-        chmod 600 "$TARGET_FILE"
-        chown system:system "$TARGET_FILE"
-
         # 删除备份文件
         rm -f "$BACKUP_FILE"
         echo "已删除备份文件！"
@@ -30,6 +26,14 @@ if [ -f "$BACKUP_FILE" ]; then
     fi
 else
     echo "未找到备份文件，跳过恢复！"
+fi
+
+# 统一还原目标文件权限（无论是否恢复备份，都确保权限还原）
+if [ -f "$TARGET_FILE" ]; then
+    echo "正在还原目标文件权限..."
+    chmod 600 "$TARGET_FILE"
+    chown system:system "$TARGET_FILE"
+    echo "已还原文件权限！"
 fi
 
 echo "卸载完成！"

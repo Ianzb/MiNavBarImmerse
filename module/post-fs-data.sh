@@ -10,14 +10,14 @@ echo "正在应用 MiNavBarImmerse 配置文件..."
 # 检查目标文件是否存在
 if [ ! -f "$TARGET_FILE" ]; then
     echo "错误: 目标文件不存在: $TARGET_FILE"
-    echo "请确保您的设备支持此功能！"
+    echo "请确保您的系统支持此功能！"
     exit 1
 fi
 
 # 检查自定义文件是否存在
 if [ ! -f "$CUSTOM_FILE" ]; then
     echo "错误: 自定义规则文件不存在: $CUSTOM_FILE"
-    echo "请确保模块已正确安装！"
+    echo "请确保模块正确安装！"
     exit 1
 fi
 
