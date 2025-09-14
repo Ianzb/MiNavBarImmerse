@@ -66,7 +66,7 @@ jobs:
       - name: Create zip file
         run: |
           cd module
-          zip -r ../MiNavBarImmerse_${{ steps.update_version.outputs.module_version }}.zip .
+          zip -r ../MiNavBarImmerse_${{ steps.update_version.outputs.module_version }}.zip . -x "*/immerse_rules.xsd" "immerse_rules.xsd"
 
       - name: Update "update.json"
         run: |
