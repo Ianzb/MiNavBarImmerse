@@ -663,4 +663,6 @@
     <!-- KonaBess -->
     <package name="xzr.konabess" enable="true" activityRule="*:2"/>
 
+    <!-- Example -->
+    <package name="com.example.app" enable="true" activityRule="com.example.MainActivity:2"/>
 </NBIRules>
