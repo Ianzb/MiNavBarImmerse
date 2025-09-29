@@ -1,7 +1,7 @@
 
 **Lang:** 
 [![zh_CN](https://img.shields.io/badge/README.md-简体中文-blue)](README.md)
-[![en_US](https://img.shields.io/badge/README.md-English%20(US)-blue)](doc/README-EN-US.md)
+[![en_US](https://img.shields.io/badge/README.md-English%20(US)-blue)](doc/en_us/README.md)
 
 ---
 
@@ -11,7 +11,7 @@
 ## 小米小白条沉浸优化
 
 [Website](website_url) | [Doc](
-rule.md) | [Compat List](list.csv) | [Changelog](changelog.md) | [TG](trguild_url)
+/doc/en_us/rule.md) | [Compat List](list.csv) | [Changelog](changelog.md) | [TG](trguild_url)
 
 [![GitHub License](https://img.shields.io/github/license/Ianzb/MiNavBarImmerse)](LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/Ianzb/MiNavBarImmerse)](

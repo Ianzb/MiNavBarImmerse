@@ -1,3 +1,10 @@
+
+**Lang:** 
+[![zh_CN](https://img.shields.io/badge/rule.md-简体中文-blue)](rule.md)
+[![en_US](https://img.shields.io/badge/rule.md-English%20(US)-blue)](doc/en_us/rule.md)
+
+---
+
 # 适配说明
 
 ## 原理
