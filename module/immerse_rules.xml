@@ -662,5 +662,8 @@
 
     <!-- KonaBess -->
     <package name="xzr.konabess" enable="true" activityRule="*:2"/>
+    
+    <!-- 云班课 -->
+    <package name="com.mosoink.teach" enable="true" activityRule="*:2,com.mosoink.teach.MainMenuActivity:1:-1,com.mosoink.teach.ClazzCourseActivity:1:-1,com.mosoink.teach.QuizBeginNewActivity:1:-657931"/>
 
 </NBIRules>
