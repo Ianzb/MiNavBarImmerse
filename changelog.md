@@ -2,6 +2,11 @@
 ## 2025-09-29
 - 云班课 (__@QNquenan__)
 
+### 贡献者
+[@QNquenan](https://github.com/QNquenan)
+
+
+
 ## 2025-09-28
 ### 新增
 - 小黑盒 (__@CnBarrier404__)
