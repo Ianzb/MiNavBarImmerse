@@ -2634,6 +2634,16 @@
         }
       }
     },
+    "com.mxtech.videoplayer.pro": {
+      "name": "MX 播放器专业版",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "com.netease.cloudmusic": {
       "name": "网易云音乐",
       "enable": true,
@@ -6211,16 +6221,6 @@
     },
     "xzr.konabess": {
       "name": "KonaBess",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 2,
-          "color": null
-        }
-      }
-    },
-    "com.mxtech.videoplayer.pro": {
-      "name": "MX 播放器专业版",
       "enable": true,
       "activityRules": {
         "*": {
