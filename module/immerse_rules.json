@@ -6218,6 +6218,16 @@
           "color": null
         }
       }
+    },
+    "com.mxtech.videoplayer.pro": {
+      "name": "MX 播放器专业版",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
     }
   }
 }
