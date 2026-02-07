@@ -146,21 +146,15 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [应用�
 
 ### 1. 启用优先级
 
-```
-应用级别 enable/enable31 > Activity 级别 mode > 具体规则
-```
+- 应用级别 enable/enable31 > Activity 级别 mode > 具体规则
 
 ### 2. 颜色来源优先级（当 mode=1 时）
 
-```
-color 字段指定（color≠1）> SF采样（sf_sampling_mode=1）> 视图采样（color=1）> 系统默认
-```
+- color 字段指定（color≠1）> SF采样（sf_sampling_mode=1）> 视图采样（color=1）> 系统默认
 
 ### 3. 规则匹配优先级
 
-```
-具体 Activity 名称 > 通配符 "*"
-```
+- 具体 Activity 名称 > 通配符 "*"
 
 ### 4. 特殊情况处理
 
@@ -214,8 +208,8 @@ color 字段指定（color≠1）> SF采样（sf_sampling_mode=1）> 视图采�
 ### SF采样模式选择
 
 - **普通界面**：使用默认值 `0`
-- **复杂动态界面**（如视频号、网页）：使用 `1`
-- **有兼容性问题**：使用 `255`
+- **底部颜色接近纯色，变化频率小**（如不同皮肤不同颜色）：使用 `1`
+- **底部颜色复杂且快速变化或有兼容性问题**（如图片预览界面，信息流界面）：使用 `255`
 
 <br>
 
@@ -267,7 +261,7 @@ color 字段指定（color≠1）> SF采样（sf_sampling_mode=1）> 视图采�
 
 1. 开发者选项中的"显示布局边界"
 2. ADB命令：`adb shell dumpsys activity activities`
-3. 第三方Activity检测工具
+3. 第三方Activity检测工具：如MT管理器等
 4. 查看应用日志输出
 
 ### enable 和 enable31有什么区别？

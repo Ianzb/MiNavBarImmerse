@@ -2356,42 +2356,31 @@
         }
       }
     },
+    "com.hypergryph.skland": {
+      "name": "森空岛",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "com.max.xiaoheihe": {
       "name": "小黑盒",
       "enable": true,
       "activityRules": {
-        "com.max.xiaoheihe.base.FragmentContainerActivity": {
+        "com.max.xiaoheihe.MainActivity": {
           "mode": 1,
           "color": 1
         },
-        "com.max.xiaoheihe.module.account.InterestInitV2Activity": {
+        "com.max.xiaoheihe.module.bbs.post.ui.activitys.v2.PicturePostPageActivityV2": {
           "mode": 1,
           "color": 1
         },
-        "com.max.xiaoheihe.module.bbs.ChannelsDetailActivity": {
-          "mode": 1,
-          "color": 1
-        },
-        "com.max.xiaoheihe.module.bbs.post.ui.activitys.PicturePostPageActivity": {
-          "mode": 0,
-          "color": null
-        },
-        "com.max.xiaoheihe.module.bbs.post.ui.activitys.WebNewsPostPageActivity": {
-          "mode": 0,
-          "color": null
-        },
-        "com.max.xiaoheihe.module.bbs.post_edit.PostTabActivity": {
-          "mode": 0,
-          "color": null
-        },
-        "com.max.xiaoheihe.module.game.SteamBindActivity": {
+        "*": {
           "mode": 2,
-          "color": -1
-        },
-        "com.max.xiaoheihe.module.webview.WebActionActivity": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 1
+          "color": null
         }
       }
     },
@@ -5601,9 +5590,8 @@
           "color": null
         },
         "com.xunmeng.pinduoduo.activity.NewPageActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
+          "mode": 2,
+          "color": null
         },
         "com.xunmeng.pinduoduo.activity.NewPageMaskActivity": {
           "mode": 1,

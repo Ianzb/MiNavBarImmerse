@@ -1,5 +1,35 @@
 # 更新日志
 
+## 2026-02-07
+
+### 新增
+
+- 森空岛 (__@Ianzb__)
+
+### 优化
+
+- 小黑盒 (__@Ianzb__)
+- 拼多多 (__@Ianzb__)
+
+### 贡献者
+
+[@Ianzb](https://github.com/Ianzb)
+
+## 2026-01-27
+
+### 新增
+
+- MX 播放器专业版 (__@CnBarrier404__)
+
+### 优化
+
+- 哔哩哔哩 (__@CnBarrier404__)
+- 小黑盒 (__@CnBarrier404__)
+
+### 贡献者
+
+[@CnBarrier404](https://github.com/CnBarrier404)
+
 ## 2026-01-26
 
 ### 新增
@@ -42,6 +72,16 @@
 [@miaonai](https://github.com/miaonai)
 [@Ianzb](https://github.com/Ianzb)
 
+## 2026-01-19
+
+### 优化
+
+- 微信 (__@CnBarrier404__)
+
+### 贡献者
+
+[@CnBarrier404](https://github.com/CnBarrier404)
+
 ## 2026-01-10
 
 ### 优化
@@ -49,7 +89,7 @@
 - 修复模块可能卸载不干净的Bug (__@Ianzb__)
 - 修复备份标记逻辑错误的Bug (__@Ianzb__)
 - 修复配置保活逻辑错误的Bug (__@Ianzb__)
-- 微信公众号文章页面黑色 (__@Ianzb__)
+- 微信 (__@Ianzb__)
 
 ### 贡献者
 
