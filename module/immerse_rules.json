@@ -4628,26 +4628,6 @@
           "color": null,
           "sf_sampling_mode": 1
         },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI00": {
-          "mode": 0,
-          "color": null
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI01": {
-          "mode": 0,
-          "color": null
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI02": {
-          "mode": 0,
-          "color": null
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI03": {
-          "mode": 0,
-          "color": null
-        },
-        "com.tencent.mm.plugin.appbrand.ui.AppBrandUI04": {
-          "mode": 0,
-          "color": null
-        },
         "com.tencent.mm.plugin.audio.BizAudioFlutterActivity": {
           "mode": 0,
           "color": null,
@@ -4658,18 +4638,18 @@
           "color": null
         },
         "com.tencent.mm.plugin.finder.feed.ui.FinderProfileTimeLineUI": {
-          "mode": 0,
-          "color": null,
+          "mode": 1,
+          "color": 1,
           "sf_sampling_mode": 1
         },
         "com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI": {
-          "mode": 0,
-          "color": null,
+          "mode": 1,
+          "color": 1,
           "sf_sampling_mode": 1
         },
         "com.tencent.mm.plugin.finder.ui.FinderShareFeedRelUI": {
-          "mode": 0,
-          "color": null,
+          "mode": 1,
+          "color": 1,
           "sf_sampling_mode": 1
         },
         "com.tencent.mm.plugin.gallery.ui.AlbumPreviewUI": {
@@ -4698,8 +4678,8 @@
           "color": null
         },
         "com.tencent.mm.ui.LauncherUI": {
-          "mode": 0,
-          "color": null,
+          "mode": 1,
+          "color": 1,
           "sf_sampling_mode": 1
         },
         "com.tencent.mm.ui.chatting.ChattingUI": {
@@ -6125,12 +6105,11 @@
           "color": null
         },
         "com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
+          "mode": 2,
+          "color": null
         },
         "com.bilibili.bililive.room.ui.roomv3.LiveRoomTranslucentActivity": {
-          "mode": 0,
+          "mode": 2,
           "color": null
         },
         "com.bilibili.bplus.following.publish.view.MediaChooserActivity": {

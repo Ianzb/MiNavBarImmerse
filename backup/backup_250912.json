@@ -85,7 +85,7 @@
           "mode": 1,
           "color": -16777216
         },
-         "com.ss.android.ugc.aweme.im.sdk.media.choose.MediaChooseActivity": {
+        "com.ss.android.ugc.aweme.im.sdk.media.choose.MediaChooseActivity": {
           "mode": 1,
           "color": 1
         },
@@ -305,7 +305,7 @@
       "enable": true,
       "activityRules": {
         "com.bytedance.android.shopping.buynow.container.BuyNowFullscreenActivity": {
-          "mode":1,
+          "mode": 1,
           "color": 1
         },
         "com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity": {

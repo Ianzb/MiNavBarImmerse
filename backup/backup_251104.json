@@ -51,7 +51,7 @@
         },
         "com.tencent.mm.plugin.account.ui.MobileInputUI": {
           "mode": -1,
-          "sf_sampling_mode":1
+          "sf_sampling_mode": 1
         },
         "com.tencent.mm.plugin.appbrand.ui.AppBrandPluginUI": {
           "mode": 0,
@@ -417,7 +417,7 @@
       "enable": true,
       "activityRules": {
         "com.bytedance.android.shopping.buynow.container.BuyNowFullscreenActivity": {
-          "mode":1,
+          "mode": 1,
           "color": 1
         },
         "com.ss.android.ugc.aweme.commerce.sdk.MallContainerActivity": {
@@ -1664,7 +1664,7 @@
           "mode": 1,
           "color": 1
         },
-        "com.tmri.app.ui.activity.common.WebViewActivity":{
+        "com.tmri.app.ui.activity.common.WebViewActivity": {
           "mode": -1,
           "sf_sampling_mode": 1
         }
@@ -2177,7 +2177,7 @@
           "color": null
         },
         "com.ss.android.ugc.aweme.setting.ui.DouYinSettingNewVersionActivity": {
-          "mode" : 2,
+          "mode": 2,
           "color": null
         },
         "com.ss.android.ugc.aweme.detail.ui.DetailActivity": {
@@ -3657,7 +3657,7 @@
           "mode": 0
         },
         "com.jd.jrapp.bm.common.web.ui.WebActivity": {
-          "sf_sampling_mode":1,
+          "sf_sampling_mode": 1,
           "mode": 0
         }
       }
@@ -4115,7 +4115,7 @@
       "enable": true,
       "activityRules": {
         "com.okcam.ookcam.MainActivity": {
-        "sf_sampling_mode": 1
+          "sf_sampling_mode": 1
         }
       }
     }

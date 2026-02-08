@@ -79,6 +79,9 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [应用�
 
 ## Activity 级别配置选项
 
+- Activity名称填写完整字符串，可以使用 "\*" 作为通配符。
+- 如 "\*" 指代全部Activity，"com.tencent.mm.plugin.appbrand.ui.AppBrandUI\*" 指代所有微信小程序Activity。
+
 ### mode（沉浸模式）
 
 | 值            | 名称     | 说明                  |
@@ -154,7 +157,7 @@ Pull Request 前建议在本地进行验证，提交时确保已填写 [应用�
 
 ### 3. 规则匹配优先级
 
-- 具体 Activity 名称 > 通配符 "*"
+- 具体 Activity 名称 > 具有通配符 "*" 的名称
 
 ### 4. 特殊情况处理
 
