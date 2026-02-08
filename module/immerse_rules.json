@@ -2647,11 +2647,8 @@
           "sf_sampling_mode": 1
         },
         "com.netease.cloudmusic.activity.IconChangeDefaultAlias": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 0
+          "mode": 2,
+          "color": null
         },
         "com.netease.cloudmusic.activity.MainActivity": {
           "mode": 0,
@@ -2671,7 +2668,7 @@
           "color": 0
         },
         "com.netease.cloudmusic.music.biz.rn.activity.MainProcessLayerReactNativeActivity": {
-          "mode": 1,
+          "mode": 2,
           "color": 1
         },
         "com.netease.cloudmusic.music.biz.search.activity.SearchActivity": {
