@@ -4640,9 +4640,8 @@
           "sf_sampling_mode": 1
         },
         "com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1
+          "mode": 2,
+          "color": 1
         },
         "com.tencent.mm.plugin.finder.ui.FinderShareFeedRelUI": {
           "mode": 1,
