@@ -1829,6 +1829,16 @@
         }
       }
     },
+    "com.hypergryph.skland": {
+      "name": "森空岛",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "com.hz.smartsports": {
       "name": "SmartSports / 其实我也不知道是什么，根本查不到",
       "enable": true,
@@ -2356,20 +2366,14 @@
         }
       }
     },
-    "com.hypergryph.skland": {
-      "name": "森空岛",
+    "com.max.xiaoheihe": {
+      "name": "小黑盒",
       "enable": true,
       "activityRules": {
         "*": {
           "mode": 2,
           "color": null
-        }
-      }
-    },
-    "com.max.xiaoheihe": {
-      "name": "小黑盒",
-      "enable": true,
-      "activityRules": {
+        },
         "com.max.xiaoheihe.MainActivity": {
           "mode": 1,
           "color": 1
@@ -2377,10 +2381,6 @@
         "com.max.xiaoheihe.module.bbs.post.ui.activitys.v2.PicturePostPageActivityV2": {
           "mode": 1,
           "color": 1
-        },
-        "*": {
-          "mode": 2,
-          "color": null
         }
       }
     },
