@@ -99,6 +99,7 @@ jobs:
           tag_name: AutoBuild_${{ steps.update_module_files.outputs.module_version }}
           files: MiNavBarImmerse_${{ steps.update_module_files.outputs.module_version }}.zip
           token: ${{ secrets.GITHUB_TOKEN }}
+          generate_release_notes: true
 
       - name: 上传到Telegram
         env:
