@@ -3372,7 +3372,7 @@
         },
         "com.sinovatech.unicom.basic.ui.activity.MainActivity": {
           "mode": 1,
-          "color": 0
+          "color": 1
         },
         "com.sinovatech.unicom.separatemodule.audience.AudienceActivity": {
           "mode": 1,
