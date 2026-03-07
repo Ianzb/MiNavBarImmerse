@@ -5306,10 +5306,6 @@
           "color": null,
           "sf_sampling_mode": 1
         },
-        "com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI": {
-          "mode": 0,
-          "color": null
-        },
         "com.tencent.mm.plugin.finder.feed.ui.FinderProfileTimeLineUI": {
           "mode": 0,
           "color": null,
