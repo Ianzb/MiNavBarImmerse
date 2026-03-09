@@ -1,5 +1,13 @@
 # 更新日志
+## 2026-03-09
 
+### 优化
+
+- 米游社 测试appNavColorDisabled效果 (__@Ianzb__)
+
+### 贡献者
+
+[@Ianzb](https://github.com/Ianzb)
 ## 2026-03-07
 
 ### 优化

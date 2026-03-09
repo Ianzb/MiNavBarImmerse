@@ -2896,7 +2896,8 @@
         },
         "com.mihoyo.hyperion.web2.MiHoYoWebActivity": {
           "mode": 2,
-          "color": null
+          "color": null,
+          "appNavColorDisabled": 1
         }
       }
     },
