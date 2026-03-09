@@ -2065,7 +2065,7 @@
     },
     "com.hypergryph.skland": {
       "name": "森空岛",
-      "enable": true,
+      "enable": false,
       "activityRules": {
         "*": {
           "mode": 2,
