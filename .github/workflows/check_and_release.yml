@@ -13,8 +13,6 @@ on:
       - 'module/**'
   workflow_dispatch:
 
-
-
 jobs:
   Validate-JSON:
     permissions:
@@ -55,7 +53,6 @@ jobs:
           python3 scripts/sort_csv.py
           python3 scripts/release.py
 
-
       - name: 更新模块文件
         id: update_module_files
         run: |
@@ -77,15 +74,7 @@ jobs:
           }
           EOF
 
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add module/module.prop module/immerse_rules.json list.csv update.json
-
-          git commit -m "Release Version: $VERSION" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
-          git push
-
           echo "MODULE_VERSION=$VERSION" >> $GITHUB_OUTPUT
-
 
       - name: 压缩模块文件
         run: |
