@@ -74,8 +74,8 @@ jobs:
           {
             "version": "$VERSION",
             "versionCode": $VERSION_CODE,
-            "zipUrl": "${{ base }}/code/${{ env.PROGRAM_NAME }}/${{ env.PROGRAM_NAME }}.zip",
-            "changelog": "${{ base }}/code/${{ env.PROGRAM_NAME }}/changelog.md"
+            "zipUrl": "$base/code/${{ env.PROGRAM_NAME }}/${{ env.PROGRAM_NAME }}.zip",
+            "changelog": "$base/code/${{ env.PROGRAM_NAME }}/changelog.md"
           }
           EOF
 
