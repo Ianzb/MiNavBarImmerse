@@ -58,6 +58,7 @@ jobs:
 
       - name: 更新模块文件
         id: update_module_files
+        shell: pwsh
         run: |
           FILE=module/module.prop
 
