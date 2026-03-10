@@ -1,5 +1,8 @@
 name: Check & Release
 
+env:
+  PROGRAM_NAME: "MiNavBarImmerse"
+
 on:
   pull_request:
     branches: [ main ]
@@ -61,6 +64,8 @@ jobs:
           VERSION=$(date +'%Y%m%d%H%M')
           VERSION_CODE=${{ github.run_number }}
 
+          base=$(echo "${{ secrets.DUFS_URL }}" | sed 's:/*$::')
+
           sed -i "s/^version=.*/version=$VERSION/" $FILE
           sed -i "s/^versionCode=.*/versionCode=$VERSION_CODE/" $FILE
 
@@ -69,8 +74,8 @@ jobs:
           {
             "version": "$VERSION",
             "versionCode": $VERSION_CODE,
-            "zipUrl": "https://github.com/${{ github.repository }}/releases/download/AutoBuild_${VERSION}/$ZIP_NAME",
-            "changelog": "https://raw.githubusercontent.com/${{ github.repository }}/main/changelog.md"
+            "zipUrl": "$base/code/${{ env.PROGRAM_NAME }}/${{ env.PROGRAM_NAME }}.zip",
+            "changelog": "$base/code/${{ env.PROGRAM_NAME }}/changelog.md"
           }
           EOF
 
@@ -115,3 +120,17 @@ jobs:
                -F parse_mode="HTML" \
                -F caption="$COMMIT_MESSAGE" \
                https://api.telegram.org/bot${BOT_TOKEN}/sendDocument
+
+      - name: 上传到 DUFS
+        shell: pwsh
+        env:
+          DUFS_URL: ${{ secrets.DUFS_URL }}
+          DUFS_USER: ${{ secrets.DUFS_USER }}
+          DUFS_PASSWORD: ${{ secrets.DUFS_PASSWORD }}
+        run: |
+          $base = $Env:DUFS_URL.TrimEnd('/')
+          $auth = "$($Env:DUFS_USER):$($Env:DUFS_PASSWORD)"
+
+          curl --fail --silent --show-error --user $auth -T "update.json"     "$base/code/${{ env.PROGRAM_NAME }}/update.json"
+          curl --fail --silent --show-error --user $auth -T "changelog.md"     "$base/code/${{ env.PROGRAM_NAME }}/changelog.md"
+          curl --fail --silent --show-error --user $auth -T "MiNavBarImmerse_${{ steps.update_module_files.outputs.module_version }}.zip" "$base/code/${{ env.PROGRAM_NAME }}/${{ env.PROGRAM_NAME }}.zip"
