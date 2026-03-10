@@ -1,5 +1,20 @@
 # 更新日志
 
+## 2026-03-10
+
+### 优化
+
+- 迁移更新功能至个人服务器 (__@Ianzb__)
+
+### 移除
+
+- 森空岛 (__@CnBarrier404__)
+
+### 贡献者
+
+[@Ianzb](https://github.com/Ianzb)
+[@CnBarrier404](https://github.com/CnBarrier404)
+
 ## 2026-03-09
 
 ### 优化
