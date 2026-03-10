@@ -58,14 +58,13 @@ jobs:
 
       - name: 更新模块文件
         id: update_module_files
-        shell: pwsh
         run: |
           FILE=module/module.prop
 
           VERSION=$(date +'%Y%m%d%H%M')
           VERSION_CODE=${{ github.run_number }}
 
-          $base = $Env:DUFS_URL.TrimEnd('/')
+          base=$(echo "${{ secrets.DUFS_URL }}" | sed 's:/*$::')
 
           sed -i "s/^version=.*/version=$VERSION/" $FILE
           sed -i "s/^versionCode=.*/versionCode=$VERSION_CODE/" $FILE
@@ -75,8 +74,8 @@ jobs:
           {
             "version": "$VERSION",
             "versionCode": $VERSION_CODE,
-            "zipUrl": "$base/code/${{ env.PROGRAM_NAME }}/${{ env.PROGRAM_NAME }}.zip",
-            "changelog": "$base/code/${{ env.PROGRAM_NAME }}/changelog.md"
+            "zipUrl": "${{ base }}/code/${{ env.PROGRAM_NAME }}/${{ env.PROGRAM_NAME }}.zip",
+            "changelog": "${{ base }}/code/${{ env.PROGRAM_NAME }}/changelog.md"
           }
           EOF
 
