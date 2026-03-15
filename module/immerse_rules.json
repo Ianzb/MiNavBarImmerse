@@ -5034,7 +5034,7 @@
         "com.taobao.tao.welcome.Welcome": {
           "mode": 0,
           "color": null,
-          "sf_sampling_mode": 1
+          "sf_sampling_mode": 0
         },
         "com.taobao.taolive.room.TaoLiveVideoActivity": {
           "mode": 0,
