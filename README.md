@@ -58,7 +58,7 @@ https://github.com/Ianzb/MiNavBarImmerse/pulls)
 [前往 Telegram 群组](https://t.me/MiNavBarImmerse) 与其他贡献者交流，或通过群组 Bot 下载最新构建  
 
 ### 遇到问题？
-[前往 Issue](https://github.com/Ianzb/MiNavBarImmerse/issues) 提出适配应用要求，并根据 Issue 指引提供相关信息
+[前往 Issue](https://github.com/Ianzb/MiNavBarImmerse/issues) 或 [Telegram 群组](https://t.me/MiNavBarImmerse) 提出适配应用要求，可根据 [此处](./document.md#如何正确反馈问题) 的指引
 
 ## 我想贡献！
 
