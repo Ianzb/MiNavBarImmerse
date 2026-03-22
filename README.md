@@ -5,7 +5,7 @@
 ### MiNavBarImmerse
 
 [文档](
-document.md) | [适配列表](list.csv) | [更新日志](changelog.md) | [Telegram 群组](trguild_url)
+document.md) | [更新日志](changelog.md) | [Telegram 群组](trguild_url)
 
 [![GitHub License](https://img.shields.io/github/license/Ianzb/MiNavBarImmerse)](LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/Ianzb/MiNavBarImmerse)](

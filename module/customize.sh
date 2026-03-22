@@ -16,8 +16,8 @@ backup_config || abort "备份配置文件失败"
 
 apply_custom_config || abort "应用配置文件失败"
 
+update_module_description || abort "更新状态失败"
+
+
 echo "配置初始化完成"
 echo "需要重启系统生效！"
-
-# 更新模块介绍文本，添加状态提示
-update_module_description

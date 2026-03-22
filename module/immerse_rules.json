@@ -6822,37 +6822,7 @@
       "name": "淘宝闪购",
       "enable": true,
       "activityRules": {
-        "me.ele.flutter.page.FlutterActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0
-        },
-        "me.ele.android.emagex.container.EMagexPopupActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0
-        },
-        "me.ele.coupon.CouponActivity": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 1
-        },
-        "me.ele.muise.page.WeexPageActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0
-        },
         "com.alibaba.triver.container.TriverMainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0
-        },
-        "me.ele.pha.shell.ui.ElePhaActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0
-        },
-        "me.ele.newretail.submit.RetailSubmitActivity": {
           "mode": 1,
           "color": 1,
           "sf_sampling_mode": 0
@@ -6862,12 +6832,32 @@
           "color": 1,
           "sf_sampling_mode": 0
         },
+        "me.ele.android.emagex.container.EMagexActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 0
+        },
+        "me.ele.android.emagex.container.EMagexPopupActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 0
+        },
         "me.ele.cartv2.SkuPanelActivity": {
           "mode": 1,
           "color": 1,
           "sf_sampling_mode": 0
         },
-        "me.ele.android.emagex.container.EMagexActivity": {
+        "me.ele.coupon.CouponActivity": {
+          "mode": -1,
+          "color": null,
+          "sf_sampling_mode": 1
+        },
+        "me.ele.flutter.page.FlutterActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0
+        },
+        "me.ele.muise.page.WeexPageActivity": {
           "mode": 1,
           "color": 1,
           "sf_sampling_mode": 0
@@ -6875,6 +6865,16 @@
         "me.ele.newretail.muise.RetailCustomWeexActivity": {
           "mode": 1,
           "color": 1,
+          "sf_sampling_mode": 0
+        },
+        "me.ele.newretail.submit.RetailSubmitActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 0
+        },
+        "me.ele.pha.shell.ui.ElePhaActivity": {
+          "mode": 2,
+          "color": null,
           "sf_sampling_mode": 0
         },
         "me.ele.shopdetailv2.ShopDetailV2Activity": {

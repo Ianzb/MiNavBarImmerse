@@ -74,7 +74,7 @@ class AppRule:
     def __init__(self, mode: str, package_name: str, name: str = "", enable: bool = True, disableVersionCode: int = None, activityRules: dict | str = None, **args):
         self.package_name = package_name
         self.name = name
-        self.enable = True
+        self.enable = enable
         self.disableVersionCode = disableVersionCode
 
         if mode == "22":

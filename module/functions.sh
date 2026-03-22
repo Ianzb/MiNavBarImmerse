@@ -261,7 +261,7 @@ update_module_description() {
     cp "$MODULE_PROP_FILE" "${MODULE_PROP_FILE}.bak"
     
     # 替换description字段
-    sed -i "s/^description=.*/description=$status_info\n$ORIGINAL_DESCRIPTION/" "$MODULE_PROP_FILE"
-    
-    echo "模块介绍文本已更新，添加了状态提示"
+    sed -i "s/^description=.*/description=$status_info | $ORIGINAL_DESCRIPTION/" "$MODULE_PROP_FILE"
+
+    echo "模块状态文本已更新！"
 }
