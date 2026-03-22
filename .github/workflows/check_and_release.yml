@@ -53,7 +53,6 @@ jobs:
 
       - name: 整理JSON和CSV文件
         run: |
-          python3 scripts/sort_csv.py
           python3 scripts/release.py
 
       - name: 更新模块文件
