@@ -1625,6 +1625,10 @@
           "color": null,
           "sf_sampling_mode": 0
         },
+        "com.alipay.android.phone.homemarket.marketnew.AppManageActivityV3": {
+          "mode": 2,
+          "color": null
+        },
         "com.alipay.android.phone.wallet.mylive.activity.QuickPreviewActivity": {
           "mode": 0,
           "color": null,
@@ -3370,7 +3374,7 @@
       "enable": true,
       "activityRules": {
         "com.ucpro.BrowserActivity": {
-          "mode": 0,
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 1
         }
@@ -4428,7 +4432,7 @@
           "sf_sampling_mode": 0
         },
         "com.ss.android.ugc.aweme.profile.ui.UserProfileActivity": {
-          "mode": 0,
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0
         },
