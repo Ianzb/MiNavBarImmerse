@@ -6126,10 +6126,9 @@
       "enable": true,
       "activityRules": {
         "com.ximalaya.ting.android.host.activity.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 0
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
         }
       }
     },
