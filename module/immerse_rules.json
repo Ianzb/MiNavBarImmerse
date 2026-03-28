@@ -7034,6 +7034,16 @@
         }
       }
     },
+    "fun.upup.musicfree": {
+      "name": "MusicFree",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "xzr.konabess": {
       "name": "KonaBess",
       "enable": true,
