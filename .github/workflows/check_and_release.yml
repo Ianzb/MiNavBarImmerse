@@ -50,10 +50,6 @@ jobs:
         run: |
           pip3 install -r scripts/requirements.txt
 
-      - name: 自动排序配置文件
-        run: |
-          python3 scripts/sort_rule.py
-
       - name: 生成多版本配置文件
         run: |
           python3 scripts/release.py
