@@ -6,10 +6,12 @@
 
 - 和包 (__@CnBarrier404__)
 - 悦享校园 (__@CnBarrier404__)
+- 重新添加自动排序功能 (__@Ianzb__)
 
 ### 贡献者
 
 [@CnBarrier404](https://github.com/CnBarrier404)
+[@Ianzb](https://github.com/Ianzb)
 
 ## 2026-03-28
 
