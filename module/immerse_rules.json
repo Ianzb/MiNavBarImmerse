@@ -2094,7 +2094,7 @@
       }
     },
     "com.hz.smartsports": {
-      "name": "SmartSports / 其实我也不知道是什么，根本查不到",
+      "name": "SmartSports / 其实我也不知道是什么,根本查不到",
       "enable": true,
       "activityRules": {
         "*": {
@@ -7073,6 +7073,26 @@
     },
     "xzr.konabess": {
       "name": "KonaBess",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },		 
+	"com.fanli.android.apps": {
+      "name": "返利",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },		 
+	"com.inphase.mojing": {
+      "name": "魔镜慧眼",
       "enable": true,
       "activityRules": {
         "*": {
