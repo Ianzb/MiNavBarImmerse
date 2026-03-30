@@ -122,7 +122,7 @@ jobs:
           curl -F chat_id=${CHANNEL_ID} \
                -F message_thread_id=39 \
                -F document=@"${ZIP_FILE}" \
-               -F parse_mode="HTML" \
+               -F parse_mode="MarkdownV2" \
                -F caption="$COMMIT_MESSAGE" \
                https://api.telegram.org/bot${BOT_TOKEN}/sendDocument
 
