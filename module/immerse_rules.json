@@ -1640,6 +1640,11 @@
           "mode": 2,
           "color": null
         },
+        "com.alipay.android.phone.seauthenticator.iotauth.view.FpFullViewCompatDialog": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        },
         "com.alipay.android.phone.wallet.mylive.activity.QuickPreviewActivity": {
           "mode": 0,
           "color": null,
@@ -1719,11 +1724,6 @@
         "com.eg.android.AlipayGphone.AlipayLogin": {
           "mode": 0,
           "color": null,
-          "sf_sampling_mode": 1
-        },
-        "com.alipay.android.phone.seauthenticator.iotauth.view.FpFullViewCompatDialog": {
-          "mode": 1,
-          "color": 1,
           "sf_sampling_mode": 1
         }
       }
