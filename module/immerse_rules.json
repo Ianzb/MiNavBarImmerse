@@ -7093,7 +7093,7 @@
     },		 
 	"com.inphase.mojing": {
       "name": "魔镜慧眼",
-      "enable": true,
+      "enable": true，
       "activityRules": {
         "*": {
           "mode": 2,
