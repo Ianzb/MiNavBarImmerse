@@ -87,7 +87,7 @@
           "sf_sampling_mode": 0
         }
       }
-    },
+    }，
     "cn.com.chsi.chsiapp": {
       "name": "学信网",
       "enable": true,
@@ -574,7 +574,7 @@
       "name": "学习强国",
       "enable": true,
       "activityRules": {}
-    },
+    }，
     "com.alibaba.wireless": {
       "name": "阿里巴巴",
       "enable": true,
@@ -606,7 +606,7 @@
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 0
-        },
+        }，
         "com.alibaba.wireless.share.ShareActivity": {
           "mode": -1,
           "color": null,
@@ -639,7 +639,7 @@
           "sf_sampling_mode": 1
         }
       }
-    },
+    }，
     "com.android.bankabc": {
       "name": "中国农业银行",
       "enable": true,
@@ -670,7 +670,7 @@
           "color": null
         }
       }
-    },
+    }，
     "com.android.vending": {
       "name": "谷歌应用商店",
       "enable": true,
@@ -684,7 +684,7 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 0
-        },
+        }，
         "com.anjuke.android.app.mainmodule.hybrid.HybridActivity": {
           "mode": 0,
           "color": null,
@@ -704,7 +704,7 @@
           "mode": 1,
           "color": 1,
           "sf_sampling_mode": 0
-        },
+        }，
         "com.anjuke.android.app.newhouse.newhouse.consultant.detail.XFConsultantHomePageActivity": {
           "mode": 1,
           "color": 1,
@@ -714,7 +714,7 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 0
-        },
+        }，
         "com.anjuke.android.app.renthouse.activity.HouseDetailActivity": {
           "mode": 1,
           "color": 1,
@@ -785,7 +785,7 @@
           "mode": 1,
           "color": 1,
           "sf_sampling_mode": 0
-        },
+        }，
         "com.baidu.haokan.newhaokan.ares.AresActivity": {
           "mode": -1,
           "color": null,
@@ -795,7 +795,7 @@
           "mode": -1,
           "color": null,
           "sf_sampling_mode": 1
-        },
+        }，
         "com.baidu.searchbox.newreader.novel.view.activity.NovelSoundPlayerActivity": {
           "mode": -1,
           "color": null,
@@ -821,14 +821,14 @@
           "mode": 1,
           "color": 1,
           "sf_sampling_mode": 0
-        },
+        }，
         "com.baidu.homework.activity.web.ZybWebActivity": {
           "mode": 1,
           "color": -1,
           "sf_sampling_mode": 0
         }
       }
-    },
+    }，
     "com.baidu.netdisk": {
       "name": "百度网盘",
       "enable": true,
@@ -849,7 +849,7 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 1
-        },
+        }，
         "com.baidu.netdisk.ui.MainActivity": {
           "mode": 0,
           "color": null
@@ -873,7 +873,7 @@
           "color": null
         }
       }
-    },
+    }，
     "com.baidu.searchbox": {
       "name": "百度",
       "enable": true,
@@ -930,7 +930,7 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 1
-        },
+        }，
         "com.baidu.searchbox.weather.runtime.WeatherLandingActivity": {
           "mode": 1,
           "color": -1,
@@ -1222,7 +1222,7 @@
         "com.ccb.start.MainActivity": {
           "mode": 1,
           "color": 0
-        },
+        }，
         "com.nantian.iBank.ui.activity.container.ProgramSingleWindowActivity": {
           "mode": 2,
           "color": null
@@ -1381,7 +1381,7 @@
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0
-        },
+        }，
         "com.dianping.movie.activity.DpMovieDetailActivity": {
           "mode": 1,
           "color": 1,
@@ -7073,6 +7073,26 @@
     },
     "xzr.konabess": {
       "name": "KonaBess",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },		 
+	"com.fanli.android.apps": {
+      "name": "返利",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },		 
+	"com.inphase.mojing": {
+      "name": "魔镜慧眼",
       "enable": true,
       "activityRules": {
         "*": {
