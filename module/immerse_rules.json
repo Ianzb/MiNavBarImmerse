@@ -1749,6 +1749,16 @@
         }
       }
     },
+    "com.fanli.android.apps": {
+      "name": "返利",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "com.fenbi.android.leo": {
       "name": "小猿AI",
       "enable": true,
@@ -2157,6 +2167,16 @@
       "name": "",
       "enable": true,
       "activityRules": {}
+    },
+    "com.inphase.mojing": {
+      "name": "魔镜慧眼",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
     },
     "com.intsig.camscanner": {
       "name": "",
@@ -7073,26 +7093,6 @@
     },
     "xzr.konabess": {
       "name": "KonaBess",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 2,
-          "color": null
-        }
-      }
-    },		 
-	"com.fanli.android.apps": {
-      "name": "返利",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 2,
-          "color": null
-        }
-      }
-    },		 
-	"com.inphase.mojing": {
-      "name": "魔镜慧眼",
       "enable": true,
       "activityRules": {
         "*": {
