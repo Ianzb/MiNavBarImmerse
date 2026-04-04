@@ -1,4 +1,13 @@
 # 更新日志
+## 2026-04-04
+
+## 新增 
+
+- 搜狗输入法(__@Rainophey__)
+
+### 贡献者
+
+[@Rainophey](https://github.com/Rainophey)
 
 ## 2026-03-30
 

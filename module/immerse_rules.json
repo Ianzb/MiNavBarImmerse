@@ -4017,6 +4017,20 @@
       "enable": true,
       "activityRules": {}
     },
+    "com.sohu.inputmethod.sogou": {
+      "name": "搜狗输入法",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        },
+        "com.sohu.inputmethod.sogou.SogouIMEHomeActivity":{
+          "mode":1,
+          "color":null
+        }
+      }
+    },
     "com.sohu.newsclient": {
       "name": "搜狐新闻",
       "enable": true,
