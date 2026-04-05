@@ -208,6 +208,21 @@
         }
       }
     },
+    "cn.kuwo.player": {
+      "name": "酷我音乐",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        },
+        "cn.kuwo.player.activities.MainActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        }
+      }
+    },
     "cn.ninebot.ninebot": {
       "name": "九号出行",
       "enable": true,
@@ -7105,21 +7120,6 @@
         "*": {
           "mode": 2,
           "color": null
-        }
-      }
-    },
-    "cn.kuwo.player": {
-      "name": "酷我音乐",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 2,
-          "color": null
-        },
-        "cn.kuwo.player.activities.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1
         }
       }
     },
