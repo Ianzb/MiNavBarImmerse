@@ -5342,9 +5342,8 @@
           "color": null
         },
         "com.tencent.mm.framework.app.UIPageFragmentActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0
+          "mode": 2,
+          "color": null
         },
         "com.tencent.mm.plugin.account.ui.MobileInputUI": {
           "mode": -1,
@@ -5357,9 +5356,8 @@
           "sf_sampling_mode": 0
         },
         "com.tencent.mm.plugin.appbrand.ui.AppBrandPluginUI": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
+          "mode": 2,
+          "color": null
         },
         "com.tencent.mm.plugin.appbrand.ui.AppBrandUI*": {
           "mode": 0,
@@ -5420,6 +5418,10 @@
           "mode": 1,
           "color": 1,
           "sf_sampling_mode": 1
+        },
+        "com.tencent.mm.ui.vas.VASCommonActivity": {
+          "mode": 2,
+          "color": null
         },
         "com.tencent.mm.ui.chatting.ChattingUI": {
           "mode": 0,
