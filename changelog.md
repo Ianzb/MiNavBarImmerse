@@ -5,6 +5,8 @@
 ## 新增
 
 - 酷我音乐 (__@CnBarrier404__)
+- Geekbench 6(__@Rainophey__)
+- 手机性能排行(__@Rainophey__)
 
 ## 优化 
 
