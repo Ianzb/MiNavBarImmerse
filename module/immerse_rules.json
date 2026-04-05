@@ -3080,7 +3080,8 @@
         },
         "com.netease.cloudmusic.music.biz.comment.activity.CommentActivity": {
           "mode": 1,
-          "color": 0
+          "color": 1,
+          "sf_sampling_mode": 1
         },
         "com.netease.cloudmusic.music.biz.rn.activity.MainProcessLayerReactNativeActivity": {
           "mode": 2,
@@ -7104,6 +7105,21 @@
         "*": {
           "mode": 2,
           "color": null
+        }
+      }
+    },
+    "cn.kuwo.player": {
+      "name": "酷我音乐",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        },
+        "cn.kuwo.player.activities.MainActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
         }
       }
     },

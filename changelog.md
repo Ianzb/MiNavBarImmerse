@@ -1,12 +1,19 @@
 # 更新日志
+
 ## 2026-04-05
+
+## 新增
+
+- 酷我音乐 (__@CnBarrier404__)
 
 ## 优化 
 
 - 微信(__@Rainophey__)
+- 网易云音乐 (__@CnBarrier404__)
 
 ### 贡献者
 
+[@CnBarrier404](https://github.com/CnBarrier404)
 [@Rainophey](https://github.com/Rainophey)
 
 ## 2026-04-04
