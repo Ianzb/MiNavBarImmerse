@@ -76,13 +76,18 @@ jobs:
             "changelog": "$base/code/${{ env.PROGRAM_NAME }}/changelog.md"
           }
           EOF
-          
+
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add module/immerse_rules.json
+          git add module/module.prop \
+                  module/immerse_rules.json
 
-          git commit -m "Release Version: $VERSION" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit, skip push."
+          else
+            git commit -m "Release Version: $VERSION" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+            git push
+          fi
 
           echo "MODULE_VERSION=$VERSION" >> $GITHUB_OUTPUT
 
@@ -92,7 +97,7 @@ jobs:
           zip -r ../MiNavBarImmerse_${{ steps.update_module_files.outputs.module_version }}.zip .
 
       - name: 上传到Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v2.6.1
         with:
           name: MiNavBarImmerse_${{ steps.update_module_files.outputs.module_version }}
           tag_name: AutoBuild_${{ steps.update_module_files.outputs.module_version }}
