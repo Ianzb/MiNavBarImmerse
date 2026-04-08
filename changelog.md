@@ -1,5 +1,16 @@
 # 更新日志
 
+## 2026-04-08
+
+## 优化 
+
+- 阿里巴巴(__@Rainophey__)
+- 微信(__@Rainophey__)
+
+### 贡献者
+
+[@Rainophey](https://github.com/Rainophey)
+
 ## 2026-04-05
 
 ## 新增
