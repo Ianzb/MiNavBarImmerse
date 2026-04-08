@@ -2,10 +2,10 @@
 
 ## 2026-04-08
 
-## 优化 
+## 优化
 
-- 阿里巴巴(__@Rainophey__)
-- 微信(__@Rainophey__)
+- 阿里巴巴 (__@Rainophey__)
+- 微信 (__@Rainophey__)
 
 ### 贡献者
 
@@ -16,10 +16,10 @@
 ## 新增
 
 - 酷我音乐 (__@CnBarrier404__)
-- Geekbench 6(__@Rainophey__)
-- 手机性能排行(__@Rainophey__)
+- Geekbench 6 (__@Rainophey__)
+- 手机性能排行 (__@Rainophey__)
 
-## 优化 
+## 优化
 
 - 微信(__@Rainophey__)
 - 网易云音乐 (__@CnBarrier404__)
@@ -31,9 +31,9 @@
 
 ## 2026-04-04
 
-## 新增 
+## 新增
 
-- 搜狗输入法(__@Rainophey__)
+- 搜狗输入法 (__@Rainophey__)
 
 ### 贡献者
 
