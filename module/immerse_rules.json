@@ -594,10 +594,13 @@
       "name": "阿里巴巴",
       "enable": true,
       "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        },
         "com.alibaba.wireless.container.windvane.AliWindvaneActivity": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 1
+          "mode": 1,
+          "color": 1
         },
         "com.alibaba.wireless.detail_ng.DetailActivity": {
           "mode": -1,
@@ -606,15 +609,8 @@
           "dialogMode": 0
         },
         "com.alibaba.wireless.launch.home.V5HomeActivity": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 0
-        },
-        "com.alibaba.wireless.newdetailv2.NewDetailV2Activity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
+          "mode": 1,
+          "color": 1
         },
         "com.alibaba.wireless.newsearch.result.view.QuickSearchResultActivity": {
           "mode": -1,
@@ -622,15 +618,22 @@
           "sf_sampling_mode": 0,
           "dialogMode": 0
         },
+        "com.alibaba.wireless.popwindow.core.PopPageWindow": {
+          "mode": 2,
+          "color": null
+        },
         "com.alibaba.wireless.share.ShareActivity": {
           "mode": -1,
           "color": null,
           "sf_sampling_mode": 1
         },
-        "com.taobao.message.chat.page.chat.ChatActivity": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 1
+        "com.alibaba.wireless.workbench.myali.MyAliSettingActivity": {
+          "mode": 1,
+          "color": 1
+        },
+        "com.alibaba.wireless.workbench.myali.mywidget.ImagePagerDialog": {
+          "mode": 1,
+          "color": 1
         }
       }
     },
@@ -5430,11 +5433,6 @@
         "com.tencent.mm.plugin.lite.ui.WxaLiteAppSheetUI": {
           "mode": 1,
           "color": 0
-        },
-        "com.tencent.mm.plugin.lite.ui.WxaLiteAppTransparentLiteUI": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
         },
         "com.tencent.mm.plugin.sns.ui.SnsCommentDetailUI": {
           "mode": 0,
