@@ -1321,6 +1321,16 @@
         }
       }
     },
+    "com.edifier.edifierconnect": {
+      "name": "EDIFIER Connect",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "com.compose.batteryinfo": {
       "name": "澎湃工具箱",
       "enable": true,

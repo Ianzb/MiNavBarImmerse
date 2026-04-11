@@ -1,5 +1,15 @@
 # 更新日志
 
+## 2026-04-11
+
+### 新增
+
+- EDIFIER Connect (__@Ianzb__)
+
+### 贡献者
+
+[@Ianzb](https://github.com/Ianzb)
+
 ## 2026-04-08
 
 ## 优化
