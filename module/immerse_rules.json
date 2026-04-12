@@ -3765,6 +3765,16 @@
       "enable": true,
       "activityRules": {}
     },
+    "com.shanbay.wisecards": {
+      "name": "DSU Sideloader",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "com.shenyaocn.android.usbcamera": {
       "name": "USB摄像头",
       "enable": true,
@@ -7150,16 +7160,6 @@
       "activityRules": {}
     },
     "vegabobo.dsusideloader": {
-      "name": "DSU Sideloader",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 2,
-          "color": null
-        }
-      }
-    },
-    "com.shanbay.wisecards": {
       "name": "DSU Sideloader",
       "enable": true,
       "activityRules": {
