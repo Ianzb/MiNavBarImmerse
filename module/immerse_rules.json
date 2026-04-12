@@ -3766,7 +3766,7 @@
       "activityRules": {}
     },
     "com.shanbay.wisecards": {
-      "name": "DSU Sideloader",
+      "name": "扇贝知卡",
       "enable": true,
       "activityRules": {
         "*": {
