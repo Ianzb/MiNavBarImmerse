@@ -5489,6 +5489,10 @@
         "com.tencent.mm.ui.vas.VASCommonActivity": {
           "mode": 2,
           "color": null
+        },
+        "com.tencent.mm.plugin.finder.ui.FinderHomeUI": {
+          "mode": 2,
+          "color": null
         }
       }
     },
