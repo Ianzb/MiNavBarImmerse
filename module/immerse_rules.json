@@ -5431,6 +5431,10 @@
           "mode": 2,
           "color": 1
         },
+        "com.tencent.mm.plugin.finder.ui.FinderHomeUI": {
+          "mode": 2,
+          "color": null
+        },
         "com.tencent.mm.plugin.finder.ui.FinderShareFeedRelUI": {
           "mode": 0,
           "color": null,
@@ -5487,10 +5491,6 @@
           "color": 1
         },
         "com.tencent.mm.ui.vas.VASCommonActivity": {
-          "mode": 2,
-          "color": null
-        },
-        "com.tencent.mm.plugin.finder.ui.FinderHomeUI": {
           "mode": 2,
           "color": null
         }
