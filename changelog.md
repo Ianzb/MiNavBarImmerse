@@ -2,6 +2,10 @@
 
 ## 2026-04-12
 
+### 新增
+
+- 扇贝知卡 (__@CnBarrier404__)
+
 ### 优化
 
 - 抖音 (__@Ianzb__)
@@ -10,6 +14,7 @@
 
 ### 贡献者
 
+[@CnBarrier404](https://github.com/CnBarrier404)
 [@Ianzb](https://github.com/Ianzb)
 
 ## 2026-04-11

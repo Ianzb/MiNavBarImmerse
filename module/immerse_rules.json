@@ -7159,6 +7159,16 @@
         }
       }
     },
+    "com.shanbay.wisecards": {
+      "name": "DSU Sideloader",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "xzr.konabess": {
       "name": "KonaBess",
       "enable": true,
