@@ -4526,12 +4526,12 @@
           "dialogMode": 1
         },
         "com.ss.android.ugc.aweme.live.LivePlayActivity": {
-          "mode": 0,
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0
         },
         "com.ss.android.ugc.aweme.live.LivePlayActivityV2": {
-          "mode": 0,
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0
         },
