@@ -7169,6 +7169,54 @@
         }
       }
     },
+    "com.weico.international": {
+      "name": "微博国际版",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": 1
+        },
+        "com.weico.international.activity.LogoActivity": {
+          "mode": 2,
+          "color": 1
+        },
+        "com.weico.international.ui.ad.AdActivity": {
+          "mode": 1,
+          "color": 1
+        },
+        "com.weico.international.activity.MainFragmentActivity": {
+          "mode": 1,
+          "color": 1
+        },
+        "com.weico.international.activity.SeaStatusDetailActivity": {
+          "mode": 2,
+          "color": 1
+        },
+        "com.newimagelib.ImageDetailActivity": {
+          "mode": 1,
+          "color": -16777216
+        }
+      }
+    },
+    "com.smartisan.notes": {
+      "name": "锤子便签",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": 1
+        },
+        "com.smartisan.notes.Splash": {
+          "mode": 1,
+          "color": 1
+        },
+        "com.smartisan.notes.NewNotesActivity": {
+          "mode": 1,
+          "color": 1
+        }
+      }
+    },
     "xzr.konabess": {
       "name": "KonaBess",
       "enable": true,
