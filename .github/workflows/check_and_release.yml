@@ -112,22 +112,28 @@ jobs:
           ZIP_FILE: "${{ github.workspace }}/MiNavBarImmerse_${{ steps.update_module_files.outputs.module_version }}.zip"
 
         run: |
+          escape_markdown_v2() {
+            python3 -c 'import re,sys; print(re.sub(r"([_*\[\]()~`>#+\-=|{}.!\\\\])", lambda m: "\\" + m.group(1), sys.stdin.read()), end="")'
+          }
+
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-          COMMIT_MESSAGE="Manually run by ${{ github.actor }}"
+          ESCAPED_ACTOR=$(printf '%s' "${{ github.actor }}" | escape_markdown_v2)
+          COMMIT_MESSAGE="Manually run by $ESCAPED_ACTOR"
           else
           RAW_MSG="${{ github.event.head_commit.message }}"
-          TRIMMED_MSG=$(echo "$RAW_MSG" | sed -e '1{/^$/d}' -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
-
+          ESCAPED_MSG=$(printf '%s' "$RAW_MSG" | escape_markdown_v2)
+          ESCAPED_AUTHOR=$(printf '%s' "${{ github.event.head_commit.author.name }}" | escape_markdown_v2)
+          ESCAPED_URL=$(printf '%s' "${{ github.event.head_commit.url }}" | escape_markdown_v2)
           COMMIT_MESSAGE="New push to GitHub
-          <pre>$TRIMMED_MSG</pre>
-          by <code>${{ github.event.head_commit.author.name }}</code>
-          See commit detail <a href='${{ github.event.head_commit.url }}'>here</a>"
+                          $ESCAPED_MSG
+                          by $ESCAPED_AUTHOR
+                          See commit detail: $ESCAPED_URL"
           fi
 
           curl -F chat_id=${CHANNEL_ID} \
                -F message_thread_id=39 \
                -F document=@"${ZIP_FILE}" \
-               -F parse_mode="HTML" \
+               -F parse_mode="MarkdownV2" \
                -F caption="$COMMIT_MESSAGE" \
                https://api.telegram.org/bot${BOT_TOKEN}/sendDocument
 
