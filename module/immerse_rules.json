@@ -1962,6 +1962,17 @@
         }
       }
     },
+    "com.hengye.share": {
+      "name": "Share",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        }
+      }
+    },
     "com.hexin.plat.android": {
       "name": "同花顺",
       "enable": true,
@@ -7214,17 +7225,6 @@
         "*": {
           "mode": 2,
           "color": null
-        }
-      }
-    },
-    "com.hengye.share": {
-      "name": "Share",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1
         }
       }
     },
