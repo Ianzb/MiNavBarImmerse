@@ -7217,6 +7217,17 @@
         }
       }
     },
+    "com.hengye.share": {
+      "name": "Share",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        }
+      }
+    },
     "xzr.konabess": {
       "name": "KonaBess",
       "enable": true,

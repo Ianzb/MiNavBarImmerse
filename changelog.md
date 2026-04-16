@@ -2,12 +2,17 @@
 
 ## 2026-04-16
 
+### 新增
+
+- Share (__@CnBarrier404__)
+
 ### 优化
 
-- 锤子便签修正 (__@Yves9527__)
+- 锤子便签 (__@Yves9527__)
 
 ### 贡献者
 
+[@CnBarrier404](https://github.com/CnBarrier404)
 [@Yves9527](https://github.com/Yves9527)
 
 ## 2026-04-15
@@ -18,6 +23,7 @@
 - 锤子便签 (__@Yves9527__)
 
 ### 贡献者
+
 
 [@Yves9527](https://github.com/Yves9527)
 
