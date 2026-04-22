@@ -5557,14 +5557,12 @@
           "color": null
         },
         "com.tencent.mobileqq.activity.QPublicFragmentActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
+          "mode": 2,
+          "color": null
         },
         "com.tencent.mobileqq.activity.QPublicTransFragmentActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
+          "mode": 2,
+          "color": null
         },
         "com.tencent.mobileqq.activity.SplashActivity": {
           "mode": 0,
