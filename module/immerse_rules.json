@@ -3110,9 +3110,8 @@
           "color": null
         },
         "com.netease.cloudmusic.activity.H5CustomViewActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
+          "mode": 2,
+          "color": null
         },
         "com.netease.cloudmusic.activity.IconChangeDefaultAlias": {
           "mode": 2,
