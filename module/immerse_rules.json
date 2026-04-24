@@ -921,6 +921,11 @@
           "color": null,
           "sf_sampling_mode": 1
         },
+        "com.baidu.searchbox.account.userinfo.activity.PersonalPageNaActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1
+        },
         "com.baidu.searchbox.aibot.AIBotActivity": {
           "mode": 2,
           "color": null
@@ -939,11 +944,6 @@
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0
-        },
-        "com.baidu.searchbox.account.userinfo.activity.PersonalPageNaActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
         },
         "com.baidu.searchbox.newreader.novel.view.activity.NovelSoundPlayerActivity": {
           "mode": 0,
@@ -985,6 +985,11 @@
           "color": null,
           "sf_sampling_mode": 1
         },
+        "com.baidu.searchbox.account.userinfo.activity.PersonalPageNaActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1
+        },
         "com.baidu.searchbox.godeye.CodeScannerActivity": {
           "mode": 2,
           "color": null,
@@ -997,11 +1002,6 @@
         },
         "com.baidu.searchbox.music.TTSFullScreenPlayerActivity": {
           "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 1
-        },
-        "com.baidu.searchbox.account.userinfo.activity.PersonalPageNaActivity": {
-          "mode": 0,
           "color": null,
           "sf_sampling_mode": 1
         },
@@ -1523,6 +1523,16 @@
       "enable": true,
       "activityRules": {
         "com.didjdk.adbhelper.FastbootActivity": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
+    "com.digitalmall.chery": {
+      "name": "奇瑞汽车",
+      "enable": true,
+      "activityRules": {
+        "*": {
           "mode": 2,
           "color": null
         }
@@ -2515,11 +2525,6 @@
           "color": null,
           "sf_sampling_mode": 0
         },
-        "com.yxcorp.plugin.setting.cache.activity.CacheDetailActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
-        },
         "com.yxcorp.gifshow.detail.PhotoDetailActivity": {
           "mode": 0,
           "color": null,
@@ -2544,6 +2549,11 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 0
+        },
+        "com.yxcorp.plugin.setting.cache.activity.CacheDetailActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1
         }
       }
     },
@@ -3146,18 +3156,13 @@
           "color": null,
           "sf_sampling_mode": 1
         },
-        "com.netease.cloudmusic.activity.RedirectActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 1
-        },
-        "com.netease.cloudmusic.music.biz.rn.activity.LayerReactNativeActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 1
-        },
         "com.netease.cloudmusic.activity.PlayListActivity": {
           "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1
+        },
+        "com.netease.cloudmusic.activity.RedirectActivity": {
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 1
         },
@@ -3169,6 +3174,11 @@
         "com.netease.cloudmusic.music.biz.comment.activity.CommentActivity": {
           "mode": 1,
           "color": 1,
+          "sf_sampling_mode": 1
+        },
+        "com.netease.cloudmusic.music.biz.rn.activity.LayerReactNativeActivity": {
+          "mode": 2,
+          "color": null,
           "sf_sampling_mode": 1
         },
         "com.netease.cloudmusic.music.biz.rn.activity.MainProcessLayerReactNativeActivity": {
@@ -4069,11 +4079,6 @@
           "color": null,
           "sf_sampling_mode": 1
         },
-        "com.yxcorp.plugin.setting.cache.activity.CacheDetailActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
-        },
         "com.yxcorp.gifshow.detail.PhotoDetailActivity": {
           "mode": 0,
           "color": null,
@@ -4103,6 +4108,11 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 0
+        },
+        "com.yxcorp.plugin.setting.cache.activity.CacheDetailActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1
         }
       }
     },
@@ -5005,6 +5015,16 @@
         }
       }
     },
+    "com.svw.sc.mos": {
+      "name": "上汽大众",
+      "enable": true,
+      "activityRules": {
+        "com.svw.sc.mos.main.ui.MainActivity": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "com.tal.imonkey.chinese": {
       "name": "学而思启蒙",
       "enable": true,
@@ -5523,6 +5543,14 @@
           "mode": 0,
           "color": null
         },
+        "com.tencent.mm.plugin.game.ui.LiteAppGameTabUI": {
+          "mode": 1,
+          "color": 1
+        },
+        "com.tencent.mm.plugin.lite.ui.WxaLiteAppLiteUI": {
+          "mode": 1,
+          "color": 1
+        },
         "com.tencent.mm.plugin.lite.ui.WxaLiteAppSheetUI": {
           "mode": 1,
           "color": 0
@@ -5540,14 +5568,6 @@
           "mode": 1,
           "color": 1,
           "sf_sampling_mode": 0
-        },
-        "com.tencent.mm.plugin.game.ui.LiteAppGameTabUI": {
-          "mode": 1,
-          "color": 1
-        },
-        "com.tencent.mm.plugin.lite.ui.WxaLiteAppLiteUI": {
-          "mode": 1,
-          "color": 1
         },
         "com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI": {
           "mode": 2,
@@ -5596,6 +5616,10 @@
           "color": null,
           "sf_sampling_mode": 0
         },
+        "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerMultiTaskActivity0": {
+          "mode": 0,
+          "color": null
+        },
         "com.tencent.mobileqq.activity.FriendProfileMoreInfoActivity": {
           "mode": 0,
           "color": null,
@@ -5617,10 +5641,6 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 0
-        },
-        "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerMultiTaskActivity0": {
-          "mode": 0,
-          "color": null
         },
         "com.tencent.sqshow.zootopia.recommend.main.ZPlanMainRecommendActivity": {
           "mode": 2,
@@ -7283,26 +7303,6 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null
-        }
-      }
-    },
-    "com.digitalmall.chery": {
-      "name": "奇瑞汽车",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 2,
-          "color": null
-        }
-      }
-    },
-    "com.svw.sc.mos": {
-      "name": "上汽大众",
-      "enable": true,
-      "activityRules": {
-        "com.svw.sc.mos.main.ui.MainActivity": {
           "mode": 2,
           "color": null
         }
