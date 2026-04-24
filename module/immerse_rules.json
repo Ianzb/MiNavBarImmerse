@@ -63,9 +63,15 @@
       }
     },
     "cmb.pb": {
-      "name": "",
+      "name": "招商银行",
       "enable": true,
-      "activityRules": {}
+      "activityRules": {
+        "cmb.pb.app.mainframe.container.PBMainActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1
+        }
+      }
     },
     "cn.TuHu.android": {
       "name": "",
@@ -934,6 +940,11 @@
           "color": null,
           "sf_sampling_mode": 0
         },
+        "com.baidu.searchbox.account.userinfo.activity.PersonalPageNaActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1
+        },
         "com.baidu.searchbox.newreader.novel.view.activity.NovelSoundPlayerActivity": {
           "mode": 0,
           "color": null,
@@ -986,6 +997,11 @@
         },
         "com.baidu.searchbox.music.TTSFullScreenPlayerActivity": {
           "mode": -1,
+          "color": null,
+          "sf_sampling_mode": 1
+        },
+        "com.baidu.searchbox.account.userinfo.activity.PersonalPageNaActivity": {
+          "mode": 0,
           "color": null,
           "sf_sampling_mode": 1
         },
@@ -1239,7 +1255,8 @@
         },
         "com.ccb.start.MainActivity": {
           "mode": 1,
-          "color": 0
+          "color": 0,
+          "sf_sampling_mode": 1
         },
         "com.nantian.iBank.ui.activity.container.ProgramSingleWindowActivity": {
           "mode": 2,
@@ -1647,7 +1664,8 @@
       "activityRules": {
         "*": {
           "mode": 2,
-          "color": null
+          "color": null,
+          "sf_sampling_mode": 1
         }
       }
     },
@@ -2134,11 +2152,12 @@
     },
     "com.hypergryph.skland": {
       "name": "森空岛",
-      "enable": false,
+      "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null
+          "mode": 1,
+          "color": 0,
+          "sf_sampling_mode": 1
         }
       }
     },
@@ -2446,7 +2465,7 @@
       "name": "快手极速版",
       "enable": true,
       "activityRules": {
-        "com.kuaishou.live.core.basic.activity.LiveSlideActivity": {
+        "com.kuaishou.live.core.basic.activity.LiveSlideActivity*": {
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 1
@@ -2495,6 +2514,11 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 0
+        },
+        "com.yxcorp.plugin.setting.cache.activity.CacheDetailActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1
         },
         "com.yxcorp.gifshow.detail.PhotoDetailActivity": {
           "mode": 0,
@@ -2743,8 +2767,8 @@
       "enable": true,
       "activityRules": {
         "com.luna.biz.main.main.MainActivity": {
-          "mode": 1,
-          "color": 1,
+          "mode": 0,
+          "color": null,
           "sf_sampling_mode": 1
         }
       }
@@ -3119,11 +3143,23 @@
         },
         "com.netease.cloudmusic.activity.MainActivity": {
           "mode": 0,
-          "color": null
+          "color": null,
+          "sf_sampling_mode": 1
+        },
+        "com.netease.cloudmusic.activity.RedirectActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 1
+        },
+        "com.netease.cloudmusic.music.biz.rn.activity.LayerReactNativeActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 1
         },
         "com.netease.cloudmusic.activity.PlayListActivity": {
           "mode": 0,
-          "color": null
+          "color": null,
+          "sf_sampling_mode": 1
         },
         "com.netease.cloudmusic.messagecenter.activity.PrivateMsgDetailActivity": {
           "mode": 0,
@@ -3983,7 +4019,7 @@
           "color": 1,
           "sf_sampling_mode": 0
         },
-        "com.kuaishou.live.core.basic.activity.LiveSlideActivity": {
+        "com.kuaishou.live.core.basic.activity.LiveSlideActivity*": {
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 1
@@ -4029,6 +4065,11 @@
           "sf_sampling_mode": 0
         },
         "com.yxcorp.gifshow.camera.record.CameraActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1
+        },
+        "com.yxcorp.plugin.setting.cache.activity.CacheDetailActivity": {
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 1
@@ -4463,8 +4504,8 @@
           "sf_sampling_mode": 0
         },
         "com.bytedance.android.xr.fusion.XrAvCallActivity": {
-          "mode": 0,
-          "color": null,
+          "mode": 1,
+          "color": 1,
           "sf_sampling_mode": 1
         },
         "com.bytedance.ies.ugc.aweme.hunter.fullpage.HunterContainerActivity": {
@@ -5500,6 +5541,14 @@
           "color": 1,
           "sf_sampling_mode": 0
         },
+        "com.tencent.mm.plugin.game.ui.LiteAppGameTabUI": {
+          "mode": 1,
+          "color": 1
+        },
+        "com.tencent.mm.plugin.lite.ui.WxaLiteAppLiteUI": {
+          "mode": 1,
+          "color": 1
+        },
         "com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI": {
           "mode": 2,
           "color": null
@@ -5568,6 +5617,10 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 0
+        },
+        "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerMultiTaskActivity0": {
+          "mode": 0,
+          "color": null
         },
         "com.tencent.sqshow.zootopia.recommend.main.ZPlanMainRecommendActivity": {
           "mode": 2,
@@ -7230,6 +7283,26 @@
       "enable": true,
       "activityRules": {
         "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
+    "com.digitalmall.chery": {
+      "name": "奇瑞汽车",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
+    "com.svw.sc.mos": {
+      "name": "上汽大众",
+      "enable": true,
+      "activityRules": {
+        "com.svw.sc.mos.main.ui.MainActivity": {
           "mode": 2,
           "color": null
         }
