@@ -675,6 +675,16 @@
         }
       }
     },
+    "com.android.chrome": {
+      "name": "Google Chrome",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "com.android.email": {
       "name": "小米电子邮件",
       "enable": true,
@@ -2951,16 +2961,6 @@
       "enable": true,
       "activityRules": {
         "org.chromium.chrome.browser.edge_settings.EdgeSettingsActivity": {
-          "mode": 2,
-          "color": null
-        }
-      }
-    },
-    "com.android.chrome": {
-      "name": "Google Chrome",
-      "enable": true,
-      "activityRules": {
-        "*": {
           "mode": 2,
           "color": null
         }
