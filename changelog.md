@@ -7,11 +7,15 @@
 - 阅读新包名 (__@Ianzb__)
 - 墨墨背单词 (__@Ianzb__)
 - Google Chrome (__@Ianzb__)
+- 中兴智慧生活 (__@Ianzb__)
 
 ### 优化
 
 - 阅读 (__@Ianzb__)
 - 和多号 (__@Ianzb__)
+- QQ (__@Ianzb__)
+- 起点读书 (__@Ianzb__)
+- 掌上无畏契约 (__@Ianzb__)
 
 ### 贡献者
 
