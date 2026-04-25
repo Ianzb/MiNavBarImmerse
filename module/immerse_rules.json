@@ -7319,6 +7319,16 @@
           "color": null
         }
       }
+    },"com.maimemo.android.momo": {
+      "name": "墨墨背单词",
+      "enable": true,
+      "activityRules": {
+        "com.maimemo.android.momo.word.WordActivity": {
+          "mode": 2,
+          "color": null,
+          "appNavColorDisabled": 1
+        }
+      }
     }
   }
 }
