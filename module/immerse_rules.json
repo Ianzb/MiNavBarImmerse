@@ -2667,6 +2667,17 @@
         }
       }
     },
+    "com.legado.app.release": {
+      "name": "阅读新包名",
+      "enable": true,
+      "activityRules": {
+        "io.legado.app.ui.book.read.ReadBookActivity": {
+          "mode": 1,
+          "color": null,
+          "sf_sampling_mode": 1
+        }
+      }
+    },
     "com.letv.android.client": {
       "name": "",
       "enable": true,
@@ -2802,6 +2813,17 @@
           "mode": 1,
           "color": 1,
           "sf_sampling_mode": 0,
+          "appNavColorDisabled": 1
+        }
+      }
+    },
+    "com.maimemo.android.momo": {
+      "name": "墨墨背单词",
+      "enable": true,
+      "activityRules": {
+        "com.maimemo.android.momo.word.WordActivity": {
+          "mode": 2,
+          "color": null,
           "appNavColorDisabled": 1
         }
       }
@@ -7081,17 +7103,6 @@
         }
       }
     },
-    "com.legado.app.release": {
-      "name": "阅读新包名",
-      "enable": true,
-      "activityRules": {
-        "io.legado.app.ui.book.read.ReadBookActivity": {
-          "mode": 1,
-          "color": null,
-          "sf_sampling_mode": 1
-        }
-      }
-    },
     "mark.via": {
       "name": "Via",
       "enable": true,
@@ -7317,16 +7328,6 @@
         "*": {
           "mode": 2,
           "color": null
-        }
-      }
-    },"com.maimemo.android.momo": {
-      "name": "墨墨背单词",
-      "enable": true,
-      "activityRules": {
-        "com.maimemo.android.momo.word.WordActivity": {
-          "mode": 2,
-          "color": null,
-          "appNavColorDisabled": 1
         }
       }
     }
