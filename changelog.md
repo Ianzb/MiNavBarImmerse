@@ -6,6 +6,7 @@
 
 - 阅读新包名 (__@Ianzb__)
 - 墨墨背单词 (__@Ianzb__)
+- Google Chrome (__@Ianzb__)
 
 ### 优化
 

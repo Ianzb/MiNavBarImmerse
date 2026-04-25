@@ -1333,7 +1333,7 @@
       "activityRules": {
         "*": {
           "mode": 1,
-          "color": null,
+          "color": 1,
           "sf_sampling_mode": 1
         }
       }
@@ -2951,6 +2951,16 @@
       "enable": true,
       "activityRules": {
         "org.chromium.chrome.browser.edge_settings.EdgeSettingsActivity": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
+    "com.android.chrome": {
+      "name": "Google Chrome",
+      "enable": true,
+      "activityRules": {
+        "*": {
           "mode": 2,
           "color": null
         }
