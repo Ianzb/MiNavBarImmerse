@@ -6867,6 +6867,17 @@
         }
       }
     },
+    "com.yzj.kaipanh": {
+      "name": "开盘红",
+      "enable": true,
+      "activityRules": {
+        "com.yzj.kaipanh.newindex.ui.main.MainActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        }
+      }
+    },
     "com.zhaopin.social": {
       "name": "",
       "enable": true,
@@ -7378,17 +7389,6 @@
         "*": {
           "mode": 2,
           "color": null
-        }
-      }
-    },
-    "com.yzj.kaipanh": {
-      "name": "开盘红",
-      "enable": true,
-      "activityRules": {
-        "com.yzj.kaipanh.newindex.ui.main.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1
         }
       }
     }
