@@ -1327,6 +1327,17 @@
         }
       }
     },
+    "com.cmic.heduohao": {
+      "name": "和多号",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": null,
+          "sf_sampling_mode": 1
+        }
+      }
+    },
     "com.cmri.universalapp": {
       "name": "移动爱家",
       "enable": true,
@@ -7328,17 +7339,6 @@
         "*": {
           "mode": 2,
           "color": null
-        }
-      }
-    },
-    "com.cmic.heduohao": {
-      "name": "和多号",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 1,
-          "color": null,
-          "sf_sampling_mode": 1
         }
       }
     }
