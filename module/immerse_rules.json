@@ -3461,6 +3461,11 @@
           "color": 1,
           "sf_sampling_mode": 0
         },
+        "com.qidian.QDReader.ui.activity.CircleHomePageActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0
+        },
         "com.qidian.QDReader.ui.activity.CirclePostCommentDetailActivity": {
           "mode": 1,
           "color": 1,
@@ -3476,17 +3481,12 @@
           "color": 1,
           "sf_sampling_mode": 0
         },
-        "com.qidian.QDReader.ui.activity.QDReaderActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0
-        },
         "com.qidian.QDReader.ui.activity.MoreActivity": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0
         },
-        "com.qidian.QDReader.ui.activity.CircleHomePageActivity": {
+        "com.qidian.QDReader.ui.activity.QDReaderActivity": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0
@@ -5436,13 +5436,13 @@
           "color": null,
           "sf_sampling_mode": 0
         },
-        "com.tencent.shortvideo.ShortVideoHomeActivity": {
-          "mode": 0,
+        "com.tencent.qtl.setting.SettingActivity": {
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0
         },
-        "com.tencent.qtl.setting.SettingActivity": {
-          "mode": 2,
+        "com.tencent.shortvideo.ShortVideoHomeActivity": {
+          "mode": 0,
           "color": null,
           "sf_sampling_mode": 0
         }
@@ -5674,10 +5674,6 @@
           "color": null,
           "sf_sampling_mode": 0
         },
-        "com.tencent.mobileqq.activity.MultiForwardActivity": {
-          "mode": 2,
-          "color": null
-        },
         "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerMultiTaskActivity0": {
           "mode": 0,
           "color": null
@@ -5686,6 +5682,10 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 1
+        },
+        "com.tencent.mobileqq.activity.MultiForwardActivity": {
+          "mode": 2,
+          "color": null
         },
         "com.tencent.mobileqq.activity.PublicFragmentActivity": {
           "mode": 2,
@@ -6960,6 +6960,16 @@
         }
       }
     },
+    "com.zte.smarthome": {
+      "name": "中兴智慧生活",
+      "enable": true,
+      "activityRules": {
+        "cn.com.zte.rn.RNServiceActivity": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "com.zwo.seestar": {
       "name": "Seestar",
       "enable": true,
@@ -7366,16 +7376,6 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null
-        }
-      }
-    },
-    "com.zte.smarthome": {
-      "name": "中兴智慧生活",
-      "enable": true,
-      "activityRules": {
-        "cn.com.zte.rn.RNServiceActivity": {
           "mode": 2,
           "color": null
         }
