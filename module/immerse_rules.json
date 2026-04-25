@@ -7074,9 +7074,21 @@
       "name": "阅读",
       "enable": true,
       "activityRules": {
-        "*": {
-          "mode": 2,
-          "color": null
+        "io.legado.app.ui.book.read.ReadBookActivity": {
+          "mode": 1,
+          "color": null,
+          "sf_sampling_mode": 1
+        }
+      }
+    },
+    "com.legado.app.release": {
+      "name": "阅读新包名",
+      "enable": true,
+      "activityRules": {
+        "io.legado.app.ui.book.read.ReadBookActivity": {
+          "mode": 1,
+          "color": null,
+          "sf_sampling_mode": 1
         }
       }
     },
