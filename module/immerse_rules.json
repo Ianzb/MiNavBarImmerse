@@ -7330,6 +7330,17 @@
           "color": null
         }
       }
+    },
+    "com.cmic.heduohao": {
+      "name": "和多号",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": null,
+          "sf_sampling_mode": 1
+        }
+      }
     }
   }
 }
