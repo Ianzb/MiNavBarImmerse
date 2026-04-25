@@ -1022,7 +1022,7 @@
         },
         "com.baidu.searchbox.video.feedflow.tab.VideoTabActivity": {
           "mode": 1,
-          "color": null,
+          "color": 1,
           "sf_sampling_mode": 1
         },
         "com.baidu.searchbox.weather.runtime.WeatherLandingActivity": {
@@ -2354,7 +2354,7 @@
         },
         "com.jingdong.app.mall.MainFrameActivity": {
           "mode": 1,
-          "color": null,
+          "color": 1,
           "sf_sampling_mode": 1
         },
         "com.jingdong.common.jdreactFramework.activities.JDReactNativeCommonActivity": {
@@ -2538,7 +2538,7 @@
         },
         "com.yxcorp.gifshow.activity.share.ShareActivity": {
           "mode": 1,
-          "color": null,
+          "color": 1,
           "sf_sampling_mode": 0
         },
         "com.yxcorp.gifshow.camera.record.CameraActivity": {
@@ -2694,7 +2694,7 @@
       "activityRules": {
         "io.legado.app.ui.book.read.ReadBookActivity": {
           "mode": 1,
-          "color": null,
+          "color": 1,
           "sf_sampling_mode": 1
         }
       }
@@ -4124,7 +4124,7 @@
         },
         "com.yxcorp.gifshow.activity.share.ShareActivity": {
           "mode": 1,
-          "color": null,
+          "color": 1,
           "sf_sampling_mode": 0
         },
         "com.yxcorp.gifshow.camera.record.CameraActivity": {
@@ -4222,7 +4222,7 @@
         },
         "com.sohu.inputmethod.sogou.SogouIMEHomeActivity": {
           "mode": 1,
-          "color": null
+          "color": 1
         }
       }
     },
@@ -7148,7 +7148,7 @@
       "activityRules": {
         "io.legado.app.ui.book.read.ReadBookActivity": {
           "mode": 1,
-          "color": null,
+          "color": 1,
           "sf_sampling_mode": 1
         }
       }
@@ -7378,6 +7378,17 @@
         "*": {
           "mode": 2,
           "color": null
+        }
+      }
+    },
+    "com.yzj.kaipanh": {
+      "name": "开盘红",
+      "enable": true,
+      "activityRules": {
+        "com.yzj.kaipanh.newindex.ui.main.MainActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
         }
       }
     }

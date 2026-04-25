@@ -8,6 +8,7 @@
 - 墨墨背单词 (__@Ianzb__)
 - Google Chrome (__@Ianzb__)
 - 中兴智慧生活 (__@Ianzb__)
+- 开盘红 (__@Ianzb__)
 
 ### 优化
 
