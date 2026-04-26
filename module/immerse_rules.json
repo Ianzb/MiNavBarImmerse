@@ -5326,6 +5326,11 @@
           "color": 1,
           "sf_sampling_mode": 0
         },
+        "com.taobao.android.sku.widget.SkuDialogFragment*": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        },
         "com.taobao.android.tbabilitykit.pop.StdPopActivityGroup": {
           "mode": 0,
           "color": null,
@@ -5418,11 +5423,6 @@
         "com.taobao.weex.weexv2.page.WeexV2Activity": {
           "mode": 0,
           "color": null,
-          "sf_sampling_mode": 1
-        },
-        "com.taobao.android.sku.widget.SkuDialogFragment*": {
-          "mode": 1,
-          "color": 1,
           "sf_sampling_mode": 1
         }
       }
