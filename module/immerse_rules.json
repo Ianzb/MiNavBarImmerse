@@ -1826,6 +1826,22 @@
         }
       }
     },
+    "com.eusoft.ting.en": {
+      "name": "每日英语听力",
+      "enable": true,
+      "activityRules": {
+        "com.eusoft.ting.ui.CommonWebViewActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        },
+        "com.eusoft.ting.ui.TingReaderActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        }
+      }
+    },
     "com.fanli.android.apps": {
       "name": "返利",
       "enable": true,
@@ -7389,22 +7405,6 @@
         "*": {
           "mode": 2,
           "color": null
-        }
-      }
-    },
-    "com.eusoft.ting.en": {
-      "name": "每日英语听力",
-      "enable": true,
-      "activityRules": {
-        "com.eusoft.ting.ui.CommonWebViewActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1
-        },
-        "com.eusoft.ting.ui.TingReaderActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1
         }
       }
     }
