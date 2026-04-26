@@ -6110,6 +6110,17 @@
         }
       }
     },
+    "com.tencent.tim": {
+      "name": "TIM",
+      "enable": true,
+      "activityRules": {
+        "com.tencent.mobileqq.activity.SplashActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        }
+      }
+    },
     "com.ubnt.usurvey": {
       "name": "WiFiman",
       "enable": true,

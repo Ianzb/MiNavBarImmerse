@@ -7,6 +7,7 @@
 - 每日英语听力 (__@Ianzb__)
 - 表盘自定义工具 (__@Ianzb__)
 - SteamPY (__@Ianzb__)
+- TIM (__@Yves9527__)
 
 ### 优化
 
@@ -27,6 +28,7 @@
 ### 贡献者
 
 [@Ianzb](https://github.com/Ianzb)
+[@Yves9527](https://github.com/Yves9527)
 
 ## 2026-04-25
 
