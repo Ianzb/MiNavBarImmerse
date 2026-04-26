@@ -5909,6 +5909,17 @@
         }
       }
     },
+    "com.tencent.tim": {
+      "name": "TIM",
+      "enable": true,
+      "activityRules": {
+        "com.tencent.mobileqq.activity.SplashActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        }
+      }
+    },
     "com.tencent.tmgp.dnf": {
       "name": "地下城与勇士：起源",
       "enable": true,
@@ -6107,17 +6118,6 @@
         "*": {
           "mode": 2,
           "color": null
-        }
-      }
-    },
-    "com.tencent.tim": {
-      "name": "TIM",
-      "enable": true,
-      "activityRules": {
-        "com.tencent.mobileqq.activity.SplashActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1
         }
       }
     },
