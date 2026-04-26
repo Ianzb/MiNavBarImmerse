@@ -2844,6 +2844,16 @@
         }
       }
     },
+    "com.lonx.lyrico": {
+      "name": "Lyrico",
+      "enable": true,
+      "activityRules": {
+        "com.lonx.lyrico.MainActivity": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "com.lphtsccft": {
       "name": "涨乐财富通",
       "enable": true,
@@ -7361,6 +7371,30 @@
       "enable": true,
       "activityRules": {}
     },
+    "org.xmsleep.app": {
+      "name": "XMSLEEP",
+      "enable": true,
+      "activityRules": {
+        "org.xmsleep.app.MainActivity": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
+    "synjones.commerce": {
+      "name": "小灵龙",
+      "enable": true,
+      "activityRules": {
+        "synjones.commerce.views.SplashActivity": {
+          "mode": 2,
+          "color": null
+        },
+        "synjones.commerce.views.WebOpenBeanAppActivity": {
+          "mode": 2,
+          "color": null
+        }
+      }
+    },
     "tech.pingx.watchface": {
       "name": "表盘自定义工具",
       "enable": true,
@@ -7494,40 +7528,6 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null
-        }
-      }
-    },
-    "synjones.commerce": {
-      "name": "小灵龙",
-      "enable": true,
-      "activityRules": {
-        "synjones.commerce.views.SplashActivity": {
-          "mode": 2,
-          "color": null
-        },
-        "synjones.commerce.views.WebOpenBeanAppActivity": {
-          "mode": 2,
-          "color": null
-        }
-      }
-    },
-    "org.xmsleep.app": {
-      "name": "XMSLEEP",
-      "enable": true,
-      "activityRules": {
-        "org.xmsleep.app.MainActivity": {
-          "mode": 2,
-          "color": null
-        }
-      }
-    },
-    "com.lonx.lyrico": {
-      "name": "Lyrico",
-      "enable": true,
-      "activityRules": {
-        "com.lonx.lyrico.MainActivity": {
           "mode": 2,
           "color": null
         }
