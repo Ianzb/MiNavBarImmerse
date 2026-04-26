@@ -1241,7 +1241,7 @@
         "*": {
           "mode": 0,
           "color": null,
-          "sf_sampling_mode": 0
+          "sf_sampling_mode": 1
         },
         "com.chaoxing.mobile.course.ui.MyCourseActivity": {
           "mode": 2,
