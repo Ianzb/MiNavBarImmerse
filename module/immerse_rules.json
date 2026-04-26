@@ -918,6 +918,10 @@
       "name": "百度",
       "enable": true,
       "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        },
         "com.baidu.browser.search.LightSearchActivity": {
           "mode": 0,
           "color": null,
@@ -973,10 +977,6 @@
           "color": -1,
           "sf_sampling_mode": 0
         },
-        "*": {
-          "mode": 2,
-          "color": null
-        },
         "com.baidu.ugc.image.ImageEditActivity": {
           "mode": 1,
           "color": 1,
@@ -988,6 +988,15 @@
       "name": "百度极速版",
       "enable": true,
       "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null
+        },
+        "com.baidu.browser.search.LightSearchActivity": {
+          "mode": -1,
+          "color": null,
+          "sf_sampling_mode": 1
+        },
         "com.baidu.live.goods.detail.act.MainActivity": {
           "mode": 0,
           "color": null,
@@ -995,35 +1004,6 @@
         },
         "com.baidu.searchbox.MainActivity": {
           "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
-        },
-        "com.baidu.searchbox.live.list.MixLiveTranslucentActivity": {
-          "mode": 1,
-          "color": -16777216,
-          "sf_sampling_mode": 1
-        },
-        "com.baidu.searchbox.novel.audio.NovelSoundPlayerActivity": {
-          "mode": -1,
-          "color": null,
-          "sf_sampling_mode": 1
-        },
-        "com.baidu.searchbox.video.collectionflow.CollectionFlowActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 1
-        },
-        "com.baidu.ugc.image.ImageEditActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 0
-        },
-        "*": {
-          "mode": 2,
-          "color": null
-        },
-        "com.baidu.browser.search.LightSearchActivity": {
-          "mode": -1,
           "color": null,
           "sf_sampling_mode": 1
         },
@@ -1042,12 +1022,27 @@
           "color": null,
           "sf_sampling_mode": 0
         },
+        "com.baidu.searchbox.live.list.MixLiveTranslucentActivity": {
+          "mode": 1,
+          "color": -16777216,
+          "sf_sampling_mode": 1
+        },
         "com.baidu.searchbox.music.TTSFullScreenPlayerActivity": {
           "mode": -1,
           "color": null,
           "sf_sampling_mode": 1
         },
         "com.baidu.searchbox.newreader.novel.view.activity.NovelSoundPlayerActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 1
+        },
+        "com.baidu.searchbox.novel.audio.NovelSoundPlayerActivity": {
+          "mode": -1,
+          "color": null,
+          "sf_sampling_mode": 1
+        },
+        "com.baidu.searchbox.video.collectionflow.CollectionFlowActivity": {
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 1
@@ -1060,6 +1055,11 @@
         "com.baidu.searchbox.weather.runtime.WeatherLandingActivity": {
           "mode": 1,
           "color": -1,
+          "sf_sampling_mode": 0
+        },
+        "com.baidu.ugc.image.ImageEditActivity": {
+          "mode": 1,
+          "color": 1,
           "sf_sampling_mode": 0
         },
         "com.baidu.voicesearh.voice.controller.VoiceSearchShellActivity": {
@@ -1114,17 +1114,6 @@
           "color": null
         },
         "com.bubblesoft.android.bubbleupnp.MainTabActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1
-        }
-      }
-    },
-    "tech.pingx.watchface": {
-      "name": "表盘自定义工具",
-      "enable": true,
-      "activityRules": {
-        "io.dcloud.PandoraEntryActivity": {
           "mode": 1,
           "color": 1,
           "sf_sampling_mode": 1
@@ -1771,11 +1760,6 @@
           "color": 1,
           "sf_sampling_mode": 1
         },
-        "com.alipay.mobile.scan.as.main.MainCaptureActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1
-        },
         "com.alipay.android.phone.wallet.mylive.activity.QuickPreviewActivity": {
           "mode": 0,
           "color": null,
@@ -1813,6 +1797,11 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 0
+        },
+        "com.alipay.mobile.scan.as.main.MainCaptureActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
         },
         "com.alipay.mobile.socialcontactsdk.contact.ui.ContactMainPageActivity": {
           "mode": 1,
@@ -5121,6 +5110,17 @@
         }
       }
     },
+    "com.steampy.app": {
+      "name": "SteamPY",
+      "enable": true,
+      "activityRules": {
+        "com.google.android.material.bottomsheet.BottomSheetDialog": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        }
+      }
+    },
     "com.stratumauth.app": {
       "name": "Startum",
       "enable": true,
@@ -6128,6 +6128,11 @@
           "mode": 2,
           "color": null
         },
+        "com.ume.android.lib.common.module.weex.WeexActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        },
         "com.umetrip.android.msky.homepage.activity.UmeHomeActivity": {
           "mode": 1,
           "color": -1,
@@ -6136,11 +6141,6 @@
         "com.umetrip.android.msky.user.login.LoginActivity": {
           "mode": 0,
           "color": null,
-          "sf_sampling_mode": 1
-        },
-        "com.ume.android.lib.common.module.weex.WeexActivity": {
-          "mode": 1,
-          "color": 1,
           "sf_sampling_mode": 1
         }
       }
@@ -6183,17 +6183,6 @@
         "*": {
           "mode": 2,
           "color": null
-        }
-      }
-    },
-    "com.steampy.app": {
-      "name": "SteamPY",
-      "enable": true,
-      "activityRules": {
-        "com.google.android.material.bottomsheet.BottomSheetDialog": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1
         }
       }
     },
@@ -7355,6 +7344,17 @@
       "name": "Telegram",
       "enable": true,
       "activityRules": {}
+    },
+    "tech.pingx.watchface": {
+      "name": "表盘自定义工具",
+      "enable": true,
+      "activityRules": {
+        "io.dcloud.PandoraEntryActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1
+        }
+      }
     },
     "tv.danmaku.bili": {
       "name": "哔哩哔哩",
