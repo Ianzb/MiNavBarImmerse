@@ -1,10 +1,93 @@
 # 更新日志
 
-## 2026-04-17
+## 2026-04-26
 
 ### 新增
 
+- 每日英语听力 (__@Ianzb__)
+- 表盘自定义工具 (__@Ianzb__)
+- SteamPY (__@Ianzb__)
 - TIM (__@Yves9527__)
+
+### 优化
+
+- Xbox (__@Ianzb__)
+- 智学网教师端 (__@Ianzb__)
+- 智学网 (__@Ianzb__)
+- 智学网学生端 (__@Ianzb__)
+- 一个木函 (__@Ianzb__)
+- LX Music (__@Ianzb__)
+- BubbleUPnP (__@Ianzb__)
+- 百度 (__@Ianzb__)
+- 支付宝 (__@Ianzb__)
+- 信号检测仪 (__@Ianzb__)
+- 中国联通 (__@Ianzb__)
+- 航旅纵横 (__@Ianzb__)
+- 阅读 (__@Ianzb__)
+
+### 贡献者
+
+[@Ianzb](https://github.com/Ianzb)
+[@Yves9527](https://github.com/Yves9527)
+
+## 2026-04-25
+
+### 新增
+
+- 阅读新包名 (__@Ianzb__)
+- 墨墨背单词 (__@Ianzb__)
+- Google Chrome (__@Ianzb__)
+- 中兴智慧生活 (__@Ianzb__)
+- 开盘红 (__@Ianzb__)
+
+### 优化
+
+- 阅读 (__@Ianzb__)
+- 和多号 (__@Ianzb__)
+- QQ (__@Ianzb__)
+- 起点读书 (__@Ianzb__)
+- 掌上无畏契约 (__@Ianzb__)
+
+### 贡献者
+
+[@Ianzb](https://github.com/Ianzb)
+
+## 2026-04-24
+
+### 新增
+
+- 奇瑞汽车 (__@Ianzb__)
+- 上汽大众 (__@Ianzb__)
+
+### 优化
+
+- 招商银行 (__@Ianzb__)
+- 百度 (__@Ianzb__)
+- 百度极速版 (__@Ianzb__)
+- 中国建设银行 (__@Ianzb__)
+- EDIFIER Connect (__@Ianzb__)
+- 森空岛 (__@Ianzb__)
+- 快手极速版 (__@Ianzb__)
+- 汽水音乐 (__@Ianzb__)
+- 快手 (__@Ianzb__)
+- 抖音 (__@Ianzb__)
+- 微信 (__@Ianzb__)
+- 网易云音乐 (__@Ianzb__)
+
+### 贡献者
+
+[@Ianzb](https://github.com/Ianzb)
+
+## 2026-04-22
+
+### 优化
+
+- QQ (__@CnBarrier404__)
+- 网易云音乐 (__@CnBarrier404__)
+
+### 贡献者
+
+[@CnBarrier404](https://github.com/CnBarrier404)
 
 ## 2026-04-16
 
@@ -29,7 +112,6 @@
 - 锤子便签 (__@Yves9527__)
 
 ### 贡献者
-
 
 [@Yves9527](https://github.com/Yves9527)
 
