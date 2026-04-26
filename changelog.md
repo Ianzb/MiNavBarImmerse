@@ -5,6 +5,24 @@
 ### 新增
 
 - 每日英语听力 (__@Ianzb__)
+- 表盘自定义工具 (__@Ianzb__)
+- SteamPY (__@Ianzb__)
+
+### 优化
+
+- Xbox (__@Ianzb__)
+- 智学网教师端 (__@Ianzb__)
+- 智学网 (__@Ianzb__)
+- 智学网学生端 (__@Ianzb__)
+- 一个木函 (__@Ianzb__)
+- LX Music (__@Ianzb__)
+- BubbleUPnP (__@Ianzb__)
+- 百度 (__@Ianzb__)
+- 支付宝 (__@Ianzb__)
+- 信号检测仪 (__@Ianzb__)
+- 中国联通 (__@Ianzb__)
+- 航旅纵横 (__@Ianzb__)
+- 阅读 (__@Ianzb__)
 
 ### 贡献者
 
