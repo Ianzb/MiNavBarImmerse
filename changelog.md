@@ -8,6 +8,9 @@
 - 表盘自定义工具 (__@Ianzb__)
 - SteamPY (__@Ianzb__)
 - TIM (__@Yves9527__)
+- 小灵龙 (__@Ianzb__)
+- XMSLEEP (__@Ianzb__)
+- Lyrico (__@Ianzb__)
 
 ### 优化
 
