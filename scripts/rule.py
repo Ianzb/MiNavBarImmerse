@@ -2,7 +2,7 @@ from utils import *
 
 
 class ActivityRule:
-    def __init__(self, name: str, mode: int = -1, color: int | str = None, sf_sampling_mode: int = None, dialogMode: int = None, popupMode: int = None, appNavColorDisabled: int = None, viewRules: list = None, **args):
+    def __init__(self, name: str, mode: int = -1, color: int | str = None, sf_sampling_mode: int = 0, dialogMode: int = 1, popupMode: int = 1, appNavColorDisabled: int = 0, viewRules: list = None, **args):
         self.name = name
         self.mode = int(mode)
         if isinstance(color, str) and is_number(color):
