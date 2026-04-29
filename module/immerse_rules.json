@@ -1668,7 +1668,7 @@
     },
     "com.baidu.wenku": {
       "name": "百度文库",
-      "enable": false,
+      "enable": true,
       "activityRules": {}
     },
     "com.bankcomm.Bankcomm": {
@@ -2502,7 +2502,7 @@
         "com.dragon.read.pages.main.MainFragmentActivity": {
           "mode": 0,
           "color": null,
-          "sf_sampling_mode": 0,
+          "sf_sampling_mode": 1,
           "dialogMode": 0,
           "popupMode": 0,
           "appNavColorDisabled": 0
@@ -3597,7 +3597,7 @@
     },
     "com.jingdong.app.mall": {
       "name": "京东",
-      "enable": false,
+      "enable": true,
       "activityRules": {
         "*": {
           "mode": 2,
@@ -8671,6 +8671,14 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
+        "com.tencent.mudule_web.PureWebActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.tencent.qtl.setting.SettingActivity": {
           "mode": 2,
           "color": null,
@@ -11621,10 +11629,10 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
-        "com.bilibili.app.comm.opus.lightpublish.page.comment.CommentLightPublishDialogFragment$c": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
+        "com.bilibili.app.comm.opus.lightpublish.page.comment.CommentLightPublishDialogFragment*": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -11662,7 +11670,7 @@
           "appNavColorDisabled": 0
         },
         "com.bilibili.bplus.followinglist.page.browser.ui.LightBrowserActivityV2": {
-          "mode": 0,
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 1,
           "dialogMode": 1,
@@ -11783,6 +11791,77 @@
       "enable": true,
       "activityRules": {
         "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.ktls.fileinfo": {
+      "name": "储存空间清理",
+      "enable": true,
+      "activityRules": {
+        "com.ktls.fileinfo.O000OO00O0OOO00OO00.O0000O00O0OOO00OO0O": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },"com.tumuyan.ncnn.realsr": {
+      "name": "RealSR放大图片",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.akira.tyranoemu": {
+      "name": "Tyranor模拟器",
+      "enable": true,
+      "activityRules": {
+        "com.akira.tyranoemu.app.TyActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.cnspeedtest.globalspeed": {
+      "name": "全球网测",
+      "enable": true,
+      "activityRules": {
+        "com.ruili.android.taierspeed.system.SystemInfoActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ruili.android.taierspeed.testreport.TestReportActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ruili.android.taierspeed.speedtest.SpeedTestSettingActivity": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
