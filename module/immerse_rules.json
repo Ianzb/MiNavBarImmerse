@@ -873,6 +873,20 @@
         }
       }
     },
+    "com.akira.tyranoemu": {
+      "name": "Tyranor模拟器",
+      "enable": true,
+      "activityRules": {
+        "com.akira.tyranoemu.app.TyActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.alibaba.android.rimet": {
       "name": "学习强国",
       "enable": true,
@@ -2083,6 +2097,36 @@
       "activityRules": {
         "com.cmri.universalapp.SmartMainProxyActivity": {
           "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.cnspeedtest.globalspeed": {
+      "name": "全球网测",
+      "enable": true,
+      "activityRules": {
+        "com.ruili.android.taierspeed.speedtest.SpeedTestSettingActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ruili.android.taierspeed.system.SystemInfoActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ruili.android.taierspeed.testreport.TestReportActivity": {
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -3862,6 +3906,20 @@
         },
         "org.geometerplus.android.fbreader.FBReader": {
           "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.ktls.fileinfo": {
+      "name": "储存空间清理",
+      "enable": true,
+      "activityRules": {
+        "com.ktls.fileinfo.O000OO00O0OOO00OO00.O0000O00O0OOO00OO0O": {
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -8639,6 +8697,14 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
+        "com.tencent.mudule_web.PureWebActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.tencent.mudule_web.info.NewsDetailXmlActivity": {
           "mode": 1,
           "color": 1,
@@ -8664,14 +8730,6 @@
           "appNavColorDisabled": 0
         },
         "com.tencent.qt.qtl.rn.activity.RNHostActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.tencent.mudule_web.PureWebActivity": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
@@ -9572,6 +9630,20 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.tumuyan.ncnn.realsr": {
+      "name": "RealSR放大图片",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -11791,77 +11863,6 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "com.ktls.fileinfo": {
-      "name": "储存空间清理",
-      "enable": true,
-      "activityRules": {
-        "com.ktls.fileinfo.O000OO00O0OOO00OO00.O0000O00O0OOO00OO0O": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },"com.tumuyan.ncnn.realsr": {
-      "name": "RealSR放大图片",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "com.akira.tyranoemu": {
-      "name": "Tyranor模拟器",
-      "enable": true,
-      "activityRules": {
-        "com.akira.tyranoemu.app.TyActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "com.cnspeedtest.globalspeed": {
-      "name": "全球网测",
-      "enable": true,
-      "activityRules": {
-        "com.ruili.android.taierspeed.system.SystemInfoActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.ruili.android.taierspeed.testreport.TestReportActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.ruili.android.taierspeed.speedtest.SpeedTestSettingActivity": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
