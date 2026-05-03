@@ -8296,7 +8296,7 @@
         "com.taobao.android.detail.alittdetail.TTDetailActivity": {
           "mode": 1,
           "color": 1,
-          "sf_sampling_mode": 0,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -8400,7 +8400,7 @@
           "appNavColorDisabled": 0
         },
         "com.alibaba.android.ultron.vfw.weex2.highPerformance.widget.UltronTradeHybridActivity": {
-          "mode": 0,
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -8425,8 +8425,8 @@
         },
         "com.alibaba.triver.triver_shop.newShop.ShopActivity": {
           "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -8544,7 +8544,7 @@
           "appNavColorDisabled": 0
         },
         "com.taobao.search.uniform.SearchActivity": {
-          "mode": 0,
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -8624,7 +8624,7 @@
           "appNavColorDisabled": 0
         },
         "com.taobao.weex.weexv2.page.WeexV2Activity": {
-          "mode": 0,
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 1,
           "dialogMode": 1,
