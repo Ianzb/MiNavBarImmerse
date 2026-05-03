@@ -11921,6 +11921,20 @@
           "appNavColorDisabled": 0
         }
       }
+    },
+    "com.zhuiluobo.box": {
+      "name": "追萝卜",
+      "enable": true,
+      "activityRules": {
+        "com.radish.radish.MainActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
     }
   }
 }
