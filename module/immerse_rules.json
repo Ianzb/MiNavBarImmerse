@@ -8424,12 +8424,12 @@
           "appNavColorDisabled": 0
         },
         "com.taobao.android.detail.alittdetail.TTDetailActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
-          "appNavColorDisabled": 1
+          "appNavColorDisabled": 0
         },
         "com.taobao.android.detail.wrapper.activity.DetailActivity": {
           "mode": 1,
