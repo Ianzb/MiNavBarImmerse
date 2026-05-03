@@ -10393,14 +10393,6 @@
       "name": "小红书",
       "enable": true,
       "activityRules": {
-        "com.xingin.matrix.browsinghistory.BrowsingHistoryPageActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
         "com.xingin.alioth.imagesearch.active.scan.ImageSearchScanActivity": {
           "mode": 1,
           "color": null,
@@ -10465,6 +10457,14 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
+        "com.xingin.matrix.browsinghistory.BrowsingHistoryPageActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.xingin.matrix.detail.activity.DetailFeedActivity": {
           "mode": 1,
           "color": 1,
@@ -10475,6 +10475,14 @@
         },
         "com.xingin.matrix.notedetail.NoteDetailActivity": {
           "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.xingin.matrix.setting.*": {
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -10497,6 +10505,14 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
+        "com.xingin.securityaccount.activity.SecurityAccountActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.xingin.xhs.index.v2.IndexActivityV2": {
           "mode": 0,
           "color": null,
@@ -10506,22 +10522,6 @@
           "appNavColorDisabled": 0
         },
         "laa.y": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.xingin.securityaccount.activity.SecurityAccountActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.xingin.matrix.setting.*": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
