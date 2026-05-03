@@ -4759,12 +4759,12 @@
           "appNavColorDisabled": 0
         },
         "com.xiaomi.fitness.main.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
-          "appNavColorDisabled": 0
+          "appNavColorDisabled": 1
         },
         "com.xiaomi.wearable.yrn.views.WearableRNActivity": {
           "mode": 2,
