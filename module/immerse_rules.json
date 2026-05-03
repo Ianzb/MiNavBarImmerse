@@ -9015,6 +9015,13 @@
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
+        },"com.tencent.mm.plugin.gallery.ui.ImagePreviewUI": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
         },
         "com.tencent.mm.plugin.game.ui.LiteAppGameTabUI": {
           "mode": 1,
