@@ -2781,16 +2781,8 @@
         },
         "com.alipay.mobile.nebulax.xriver.activity.XRiverActivity": {
           "mode": 1,
-          "color": -1,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$App01": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -8432,12 +8424,12 @@
           "appNavColorDisabled": 0
         },
         "com.taobao.android.detail.alittdetail.TTDetailActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
-          "appNavColorDisabled": 0
+          "appNavColorDisabled": 1
         },
         "com.taobao.android.detail.wrapper.activity.DetailActivity": {
           "mode": 1,
@@ -10401,8 +10393,8 @@
       "name": "小红书",
       "enable": true,
       "activityRules": {
-        "*": {
-          "mode": 0,
+        "com.xingin.matrix.browsinghistory.BrowsingHistoryPageActivity": {
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -10498,7 +10490,7 @@
           "appNavColorDisabled": 0
         },
         "com.xingin.reactnative.ui.XhsReactActivity": {
-          "mode": 0,
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 1,
           "dialogMode": 1,
@@ -10514,6 +10506,22 @@
           "appNavColorDisabled": 0
         },
         "laa.y": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.xingin.securityaccount.activity.SecurityAccountActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.xingin.matrix.setting.*": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
