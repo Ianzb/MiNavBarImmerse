@@ -11951,6 +11951,52 @@
           "appNavColorDisabled": 0
         }
       }
+    },
+    "com.ss.android.ugc.lifeservices": {
+      "name": "抖省省",
+      "enable": true,
+      "activityRules": {
+        "com.bytedance.locallife.page.poi.LifePoiActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.ugc.aweme.search.activity.SearchResultActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.ugc.aweme.main.MainActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.bytedance.locallife.page.pdp.LifePdpActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
     }
   }
 }
