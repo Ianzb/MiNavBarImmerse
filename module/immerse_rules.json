@@ -3297,6 +3297,20 @@
         }
       }
     },
+    "com.huaxiaozhu.rider": {
+      "name": "花小猪打车",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.hunantv.imgo.activity": {
       "name": "芒果TV",
       "enable": true,
@@ -9736,14 +9750,6 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
-        "com.twitter.app.main.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
         "com.twitter.android.search.implementation.results.SearchActivity": {
           "mode": 2,
           "color": null,
@@ -9753,6 +9759,14 @@
           "appNavColorDisabled": 0
         },
         "com.twitter.app.dm.DMActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.twitter.app.main.MainActivity": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
@@ -11980,20 +11994,6 @@
     },
     "vegabobo.dsusideloader": {
       "name": "DSU Sideloader",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "com.huaxiaozhu.rider": {
-      "name": "花小猪打车",
       "enable": true,
       "activityRules": {
         "*": {
