@@ -4,6 +4,23 @@
 
 ### 新增
 
+- 花小猪打车 (__@Vistre__)
+
+### 优化
+
+- 大众点评 (__@Vistre__)
+- X (__@Vistre__)
+- 哔哩哔哩 (__@CnBarrier__)
+
+### 贡献者
+
+[@CnBarrier](https://github.com/CnBarrier404)
+[@Vistre](https://github.com/vistre)
+
+## 2026-05-03
+
+### 新增
+
 - 追萝卜 (__@Ianzb__)
 - 抖省省 (__@Ianzb__)
 
