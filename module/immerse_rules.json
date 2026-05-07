@@ -3616,7 +3616,7 @@
       }
     },
     "com.jd.jrapp": {
-      "name": "",
+      "name": "京东金融",
       "enable": true,
       "activityRules": {
         "com.jd.jrapp.bm.common.web.ui.WebActivity": {
@@ -3639,6 +3639,14 @@
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.jd.jrapp.bm.common.container.ui.BaseContainerActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -12014,6 +12022,20 @@
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.timanetworks.android.faw.vw.aftermarket.release": {
+      "name": "一汽大众",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": null,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
