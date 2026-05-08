@@ -4790,6 +4790,20 @@
         }
       }
     },
+    "com.microsoft.bing": {
+      "name": "微软必应",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.microsoft.emmx": {
       "name": "Edge",
       "enable": true,
@@ -12036,20 +12050,6 @@
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "com.microsoft.bing": {
-      "name": "微软必应",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
