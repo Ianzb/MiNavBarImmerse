@@ -6,10 +6,14 @@
 
 - 微软必应 (__@Ianzb__)
 
+### 优化
+
+- 美团 (__@Ianzb__)
 
 ### 贡献者
 
 [@Ianzb](https://github.com/Ianzb)
+
 ## 2026-05-07
 
 ### 新增

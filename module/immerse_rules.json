@@ -6094,7 +6094,7 @@
       }
     },
     "com.sankuai.meituan.takeoutnew": {
-      "name": "美团外卖",
+      "name": "美团",
       "enable": true,
       "activityRules": {
         "com.dianping.live.live.mrn.MLiveMRNActivity": {
@@ -6105,10 +6105,18 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
-        "com.meituan.msc.modules.container.MSCActivity": {
-          "mode": 0,
+        "com.sankuai.waimai.business.page.kingkong.KingKongActivity": {
+          "mode": 2,
           "color": null,
-          "sf_sampling_mode": 1,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.meituan.msc.modules.container.MSCActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
