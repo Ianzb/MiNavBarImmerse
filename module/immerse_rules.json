@@ -12077,6 +12077,20 @@
           "appNavColorDisabled": 0
         }
       }
+    },
+    "com.lptiyu.tanke": {
+      "name": "步道乐跑",
+      "enable": true,
+      "activityRules": {
+        "com.lptiyu.tanke.activities.main.MainActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
     }
   }
 }
