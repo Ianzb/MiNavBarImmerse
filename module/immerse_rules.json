@@ -4468,6 +4468,20 @@
         }
       }
     },
+    "com.lptiyu.tanke": {
+      "name": "步道乐跑",
+      "enable": true,
+      "activityRules": {
+        "com.lptiyu.tanke.activities.main.MainActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.luna.music": {
       "name": "汽水音乐",
       "enable": true,
@@ -11097,6 +11111,20 @@
         }
       }
     },
+    "com.youdao.translator": {
+      "name": "有道翻译官",
+      "enable": true,
+      "activityRules": {
+        "com.youdao.translator.activity.MainActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.youku.phone": {
       "name": "优酷视频",
       "enable": true,
@@ -12058,34 +12086,6 @@
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "com.youdao.translator": {
-      "name": "有道翻译官",
-      "enable": true,
-      "activityRules": {
-        "com.youdao.translator.activity.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "com.lptiyu.tanke": {
-      "name": "步道乐跑",
-      "enable": true,
-      "activityRules": {
-        "com.lptiyu.tanke.activities.main.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
