@@ -12063,6 +12063,20 @@
           "appNavColorDisabled": 0
         }
       }
+    },
+    "com.youdao.translator": {
+      "name": "有道翻译官",
+      "enable": true,
+      "activityRules": {
+        "com.youdao.translator.activity.MainActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
     }
   }
 }
