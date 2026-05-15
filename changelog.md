@@ -1,5 +1,21 @@
 # 更新日志
 
+## 2026-05-15
+
+### 新增
+
+- NoActive (__@Rainophey__)
+
+### 优化
+
+- 抖音 (__@Vistre__)
+- 网易大神 (__@Vistre__)
+
+### 贡献者
+
+[@Rainophey](https://github.com/Rainophey)
+[@Vistre](https://github.com/vistre)
+
 ## 2026-05-10
 
 ### 新增

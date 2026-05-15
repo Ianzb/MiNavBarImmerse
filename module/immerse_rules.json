@@ -5337,7 +5337,7 @@
       "enable": true,
       "activityRules": {
         "com.netease.gl.serviceh5.ui.NormalWebActivity": {
-          "mode": 0,
+          "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -5347,6 +5347,22 @@
         "com.netease.gl.session.team.activity.TeamMessageActivity": {
           "mode": 1,
           "color": 1,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.netease.gl.compfeed.creation.catalog.trending.activity.SquareScoreDetailActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.netease.gl.compfeed.circle.activity.GameWikiActivity": {
+          "mode": 2,
+          "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
@@ -7448,8 +7464,8 @@
           "appNavColorDisabled": 0
         },
         "com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity": {
-          "mode": 1,
-          "color": -1,
+          "mode": 2,
+          "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
@@ -12080,6 +12096,20 @@
     },
     "xzr.konabess": {
       "name": "KonaBess",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "cn.myflv.monitor.noactive": {
+      "name": "NoActive",
       "enable": true,
       "activityRules": {
         "*": {
