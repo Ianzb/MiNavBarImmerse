@@ -319,6 +319,20 @@
         }
       }
     },
+    "cn.myflv.monitor.noactive": {
+      "name": "NoActive",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "cn.ninebot.ninebot": {
       "name": "九号出行",
       "enable": true,
@@ -5336,17 +5350,9 @@
       "name": "网易大神",
       "enable": true,
       "activityRules": {
-        "com.netease.gl.serviceh5.ui.NormalWebActivity": {
+        "com.netease.gl.compfeed.circle.activity.GameWikiActivity": {
           "mode": 2,
           "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.netease.gl.session.team.activity.TeamMessageActivity": {
-          "mode": 1,
-          "color": 1,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
@@ -5360,9 +5366,17 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
-        "com.netease.gl.compfeed.circle.activity.GameWikiActivity": {
+        "com.netease.gl.serviceh5.ui.NormalWebActivity": {
           "mode": 2,
           "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.netease.gl.session.team.activity.TeamMessageActivity": {
+          "mode": 1,
+          "color": 1,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
@@ -12096,20 +12110,6 @@
     },
     "xzr.konabess": {
       "name": "KonaBess",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "cn.myflv.monitor.noactive": {
-      "name": "NoActive",
       "enable": true,
       "activityRules": {
         "*": {
