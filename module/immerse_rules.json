@@ -210,6 +210,30 @@
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
+        },
+        "com.alibaba.pictures.bricks.channel.activity.BricksChannelPageActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "cn.damai.message.MessageMainActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "cn.damai.trade.newtradeorder.ui.projectdetail.ui.activity.ProjectDetailActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
         }
       }
     },
@@ -3414,9 +3438,9 @@
           "appNavColorDisabled": 0
         },
         "com.hupu.games.main.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -5367,9 +5391,9 @@
           "appNavColorDisabled": 0
         },
         "com.netease.gl.serviceh5.ui.NormalWebActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -5408,14 +5432,36 @@
       "enable": true,
       "activityRules": {}
     },
+    "com.uu898.uuhavequality": {
+      "name": "悠悠有品",
+      "enable": true,
+      "activityRules": {
+        "com.uu898.uuhavequality.stock.PurchaseRecordActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.uu898.uuhavequality.rent.activity.LeaseRecordActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.nowcoder.app.florida": {
       "name": "牛客",
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -7381,9 +7427,298 @@
       }
     },
     "com.ss.android.lark": {
-      "name": "",
+      "name": "飞书",
       "enable": true,
-      "activityRules": {}
+      "activityRules": {
+        "com.ss.android.lark.chat.search.ChatInsideSearchActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.bytedance.ee.bear.drive.core.DriveExpandActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.chatsetting.impl.common_view.page.ChatSettingCommonActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.bytedance.ee.bear.document.DocExpandActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.vc.meeting.module.multi.ByteRTCMeetingActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.chatsetting.impl.transassistant.TranslateAssistantActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.feed.app.group.create.CreateFeedGroupActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.profile.func.v3.editalias.EditAliasActivityV3": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.setting.page.function.SettingPageActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.bytedance.lark.webview.container.impl.WebContainerFullScreenOptActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.setting.page.content.common.impl.locale.LanguageSettingActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.setting.page.content.common.impl.duallanguage.DualLanguageSettingActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.setting.page.content.common.impl.translate.TranslateSettingActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.setting.page.content.common.impl.network.NetworkDiagnoseActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.notification.setting.impl.setting.NotificationSettingsActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.notification.setting.impl.special_focus.SpecialFocusNotificationActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.notification.setting.impl.setting.alive.NotificationAliveActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.notification.setting.impl.badgestyle.BadgeStyleSettingsActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.notification.push_diagnose.PushDiagnoseActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.contact.impl.setting.one_way_contact.privacy_new.PrivacySettingActivityV2": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.contact.impl.setting.PrivacySettingActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.contact.impl.setting.one_way_contact.permission.ChatPermissionActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.calendar.impl.features.settings.CalendarSettingActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.vc.lark.setting.VideoChatSettingActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.feed.app.filter.feedfilter.FeedMessageFilterActivityV2": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.setting.wheniviewachat.WhenIViewAChatActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.mine.impl.custom_status.UserCustomStatusActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.search.setting.SearchEngineSettingActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.setting.page.content.internal.MineInternalSettingsActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.setting.page.content.labs.LabsSettingsActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.upgrade.setting.about.AboutActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.general.search.SearchActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.bytedance.ee.bear.wikiv2.WikiExpandActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.post.PostMessageActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.larksuite.component.universe_design.dialog.UDDialog": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.lark.upgrade.impl.m": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
     },
     "com.ss.android.ugc.aweme": {
       "name": "抖音",
@@ -8292,12 +8627,12 @@
       "enable": true,
       "activityRules": {
         "com.svw.sc.mos.main.ui.MainActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
-          "appNavColorDisabled": 0
+          "appNavColorDisabled": 1
         }
       }
     },
@@ -10977,9 +11312,9 @@
           "appNavColorDisabled": 0
         },
         "com.xunmeng.pinduoduo.activity.NewPageActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
