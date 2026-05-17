@@ -1769,6 +1769,20 @@
         }
       }
     },
+    "com.bwvip.sporteducation": {
+      "name": "体教联盟",
+      "enable": true,
+      "activityRules": {
+        "com.bwvip.sporteducation.SplashActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.byd.aeri.caranywhere": {
       "name": "比亚迪",
       "enable": true,
@@ -12448,20 +12462,6 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "com.bwvip.sporteducation": {
-      "name": "体教联盟",
-      "enable": true,
-      "activityRules": {
-        "com.bwvip.sporteducation.SplashActivity": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
