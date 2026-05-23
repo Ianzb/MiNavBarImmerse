@@ -561,6 +561,20 @@
         }
       }
     },
+    "cn.wywk.app": {
+      "name": "网鱼",
+      "enable": true,
+      "activityRules": {
+        "cn.wywk.core.splash.SplashActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "cn.xuexi.android": {
       "name": "学习强国",
       "enable": true,
@@ -12462,20 +12476,6 @@
       "enable": true,
       "activityRules": {
         "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "cn.wywk.app": {
-      "name": "网鱼",
-      "enable": true,
-      "activityRules": {
-        "cn.wywk.core.splash.SplashActivity": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
