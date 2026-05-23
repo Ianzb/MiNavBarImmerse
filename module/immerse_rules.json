@@ -4847,9 +4847,9 @@
           "appNavColorDisabled": 1
         },
         "com.xiaomi.wearable.yrn.views.WearableRNActivity": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -10819,9 +10819,9 @@
           "appNavColorDisabled": 0
         },
         "com.xiaomi.miot.store.mirn.RNMainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -10835,9 +10835,9 @@
           "appNavColorDisabled": 0
         },
         "com.xiaomi.shop2.activity.MainActivity": {
-          "mode": 0,
-          "color": null,
-          "sf_sampling_mode": 0,
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -11326,9 +11326,9 @@
           "appNavColorDisabled": 0
         },
         "com.xunmeng.pinduoduo.activity.NewPageActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -12462,6 +12462,20 @@
       "enable": true,
       "activityRules": {
         "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "cn.wywk.app": {
+      "name": "网鱼",
+      "enable": true,
+      "activityRules": {
+        "cn.wywk.core.splash.SplashActivity": {
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
