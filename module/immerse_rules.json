@@ -903,6 +903,36 @@
         }
       }
     },
+    "com.air.airlook": {
+      "name": "AIR-Look",
+      "enable": true,
+      "activityRules": {
+        "com.wifiview.activity.HomePagerActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.wifiview.activity.MainActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.wifiview.activity.SplashActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.aiyu.kaipanla": {
       "name": "开盘啦",
       "enable": true,
@@ -2076,6 +2106,20 @@
         "com.citiccard.mobilebank.web.webpage.CommonWebPage": {
           "mode": 0,
           "color": null,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.cloudy.linglingbang": {
+      "name": "五菱汽车",
+      "enable": true,
+      "activityRules": {
+        "com.cloudy.linglingbang.activity.HomeActivity": {
+          "mode": 1,
+          "color": 1,
           "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
@@ -12479,50 +12523,6 @@
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "com.cloudy.linglingbang": {
-      "name": "五菱汽车",
-      "enable": true,
-      "activityRules": {
-        "com.cloudy.linglingbang.activity.HomeActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },
-    "com.air.airlook": {
-      "name": "AIR-Look",
-      "enable": true,
-      "activityRules": {
-        "com.wifiview.activity.SplashActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.wifiview.activity.HomePagerActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "com.wifiview.activity.MainActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
