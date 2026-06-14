@@ -586,6 +586,14 @@
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
+        },
+        "com.alibaba.lightapp.runtime.ariver.TheOneActivity5": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
         }
       }
     },
@@ -1113,6 +1121,14 @@
       "activityRules": {
         "com.alipay.mobile.nebulacore.ui.H5Activity": {
           "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.xiaomi.fido1.matcher.FPTActivity": {
+          "mode": -1,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -1765,7 +1781,16 @@
     "com.baidu.wenku": {
       "name": "百度文库",
       "enable": true,
-      "activityRules": {}
+      "activityRules": {
+        "com.baidu.bdlayout.ui.BDBookActivity": {
+          "mode": 1,
+          "color": -1,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
     },
     "com.bankcomm.Bankcomm": {
       "name": "交通银行",
@@ -2332,6 +2357,14 @@
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
+        },
+        "com.cubic.autohome.MainActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
         }
       }
     },
@@ -2893,6 +2926,14 @@
           "mode": 1,
           "color": 1,
           "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$App01": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -4149,6 +4190,22 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
+        "com.yxcorp.gifshow.comment.image.ImageDetailActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.yxcorp.gifshow.comment.image.ImageDetailKcmpActivityOpt": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.yxcorp.gifshow.detail.PhotoDetailActivity": {
           "mode": 0,
           "color": null,
@@ -4176,6 +4233,14 @@
         "com.yxcorp.gifshow.message.imchat.acivity.IMChatActivity": {
           "mode": 1,
           "color": 1,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.yxcorp.gifshow.profile.activity.UserProfileActivity": {
+          "mode": 2,
+          "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
@@ -5241,6 +5306,14 @@
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
+        },
+        "com.mt.mtxx.mtxx.alias.MainActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
         }
       }
     },
@@ -5738,6 +5811,14 @@
       "name": "起点读书",
       "enable": true,
       "activityRules": {
+        "com.qidian.QDReader.comic.ui.QDComicReadingVerticalActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.qidian.QDReader.flutter.GameCenterFlutterActivity": {
           "mode": 1,
           "color": 1,
@@ -6789,6 +6870,14 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
+        "com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyNewPrepareUI": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.yxcorp.gifshow.HomeActivity": {
           "mode": 0,
           "color": null,
@@ -7089,6 +7178,14 @@
           "appNavColorDisabled": 0
         },
         "com.ss.android.live.host.livehostimpl.OpenLivePlayerActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.ugc.detail.activity.TikTokActivity": {
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 0,
@@ -8156,6 +8253,14 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
+        "com.bytedance.android.xr.fusion.XrAvCallActivity": {
+          "mode": 1,
+          "color": -16777216,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.bytedance.ies.ugc.aweme.hunter.fullpage.HunterContainerActivity": {
           "mode": 0,
           "color": null,
@@ -8575,6 +8680,14 @@
         "com.ss.android.ugc.aweme.im.business.mediaselectpage.edit.IMEditPreviewActivity": {
           "mode": 1,
           "color": -16777216,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.ss.android.ugc.aweme.live.LivePlayActivity*": {
+          "mode": 0,
+          "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
@@ -9575,6 +9688,14 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
+        "com.tencent.mm.plugin.remittance.ui.RemittanceUI": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.tencent.mm.plugin.sns.ui.SnsCommentDetailUI": {
           "mode": 0,
           "color": null,
@@ -9686,6 +9807,14 @@
           "appNavColorDisabled": 0
         },
         "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerMultiTaskActivity*": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.tencent.luggage.wxa.standalone_open_runtime.container.WxaContainerMultiTaskActivity0": {
           "mode": 0,
           "color": null,
           "sf_sampling_mode": 0,
@@ -10804,6 +10933,14 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
+        "com.wudaokou.hippo.launcher.splash.SplashActivity": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.wudaokou.hippo.order.detailUltron.OrderUltronDetailActivity": {
           "mode": 1,
           "color": 1,
@@ -10956,6 +11093,14 @@
       "name": "小红书",
       "enable": true,
       "activityRules": {
+        "*": {
+          "mode": 0,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.xingin.alioth.imagesearch.active.scan.ImageSearchScanActivity": {
           "mode": 1,
           "color": null,

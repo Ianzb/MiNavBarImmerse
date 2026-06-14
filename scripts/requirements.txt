@@ -1,2 +1,0 @@
-pypinyin==0.55.0
-xmltodict==1.0.2

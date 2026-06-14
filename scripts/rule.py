@@ -106,13 +106,15 @@ class AppRule:
 
     def updateFromDict(self, data):
         if not self.name and data.get("name"):
-            self.name = data.get("name")
+            self.name = data["name"]
         if "activityRules" in data:
             for name, rule in data["activityRules"].items():
                 if name in self.activityRules:
                     self.activityRules[name].updateFromDict(rule)
                 else:
                     self.activityRules[name] = ActivityRule.fromData("dict", name, rule)
+        if "enable" in data:
+            self.enable = data["enable"]
         return self
 
     def updateFromRule(self, rule):
