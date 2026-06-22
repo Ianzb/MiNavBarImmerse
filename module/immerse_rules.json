@@ -3054,6 +3054,20 @@
         }
       }
     },
+    "com.example.wearablelogextractor": {
+      "name": "AuthKey提取器",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.fanli.android.apps": {
       "name": "返利",
       "enable": true,
@@ -11528,14 +11542,6 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
-        "com.xunmeng.pinduoduo.ui.activity.HomeActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
         "com.xunmeng.pinduoduo.activity.NewPageActivity": {
           "mode": 2,
           "color": null,
@@ -11556,6 +11562,14 @@
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.xunmeng.pinduoduo.ui.activity.HomeActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -12670,19 +12684,6 @@
     },
     "xzr.konabess": {
       "name": "KonaBess",
-      "enable": true,
-      "activityRules": {
-        "*": {
-          "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        }
-      }
-    },"com.example.wearablelogextractor": {
-      "name": "AuthKey提取器",
       "enable": true,
       "activityRules": {
         "*": {
