@@ -3826,8 +3826,8 @@
         },
         "com.jd.lib.jshop.jshop.JshopMainShopActivity": {
           "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 0,
+          "color": 1,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -11528,6 +11528,14 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
+        "com.xunmeng.pinduoduo.ui.activity.HomeActivity": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.xunmeng.pinduoduo.activity.NewPageActivity": {
           "mode": 2,
           "color": null,
@@ -12662,6 +12670,19 @@
     },
     "xzr.konabess": {
       "name": "KonaBess",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },"com.example.wearablelogextractor": {
+      "name": "AuthKey提取器",
       "enable": true,
       "activityRules": {
         "*": {
