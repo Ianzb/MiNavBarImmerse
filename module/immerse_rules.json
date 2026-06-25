@@ -12695,6 +12695,48 @@
           "appNavColorDisabled": 0
         }
       }
+    },
+    "jp.pxv.android": {
+      "name": "pixiv",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.rytong.ceair": {
+      "name": "东方航空",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.bw30.zsch": {
+      "name": "四川航空",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": -1,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
     }
   }
 }
