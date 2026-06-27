@@ -91,68 +91,6 @@ jobs:
 
           echo "MODULE_VERSION=$VERSION" >> $GITHUB_OUTPUT
 
-#      - name: 压缩模块文件
-#        run: |
-#          cd module
-#          zip -r ../MiNavBarImmerse_${{ steps.update_module_files.outputs.module_version }}.zip .
-#
-#      - name: 上传到Release
-#        uses: softprops/action-gh-release@v2.6.1
-#        with:
-#          name: MiNavBarImmerse_${{ steps.update_module_files.outputs.module_version }}
-#          tag_name: AutoBuild_${{ steps.update_module_files.outputs.module_version }}
-#          files: MiNavBarImmerse_${{ steps.update_module_files.outputs.module_version }}.zip
-#          token: ${{ secrets.GITHUB_TOKEN }}
-#          generate_release_notes: true
-#
-#      - name: 上传到Telegram
-#        env:
-#          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
-#          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-#          ZIP_FILE: "${{ github.workspace }}/MiNavBarImmerse_${{ steps.update_module_files.outputs.module_version }}.zip"
-#          RAW_MSG: "${{ github.event.head_commit.message }}"
-#          AUTHOR_NAME: "${{ github.event.head_commit.author.name }}"
-#          COMMIT_URL: "${{ github.event.head_commit.url }}"
-#          RUNNER_NAME: "${{ github.actor }}"
-#          IS_DISPATCH: "${{ github.event_name == 'workflow_dispatch' }}"
-#
-#        run: |
-#          ESCAPED_CAPTION=$(python3 -c '
-#          import os, json, urllib.parse, re
-#
-#          def escape_md_v2(text):
-#              return re.sub(r"([_*\[\]()~`>#+\-=|{}.!\\])", r"\\\1", text)
-#
-#          is_dispatch = os.environ.get("IS_DISPATCH") == "true"
-#
-#          if is_dispatch:
-#              actor = escape_md_v2(os.environ.get("RUNNER_NAME", ""))
-#              msg_body = f"*Manually run by* `{actor}`"
-#          else:
-#              raw_msg = os.environ.get("RAW_MSG", "").strip()
-#              commit_body = raw_msg.replace("```", "``\\`").replace("\\", "\\\\")
-#              author = escape_md_v2(os.environ.get("AUTHOR_NAME", ""))
-#
-#              raw_url = os.environ.get("COMMIT_URL", "")
-#              escaped_url = re.sub(r"([)\\])", r"\\\1", raw_url)
-#
-#              msg_body = (
-#                  "*New push to GitHub*\n"
-#                  f"```\n{commit_body}\n```"
-#                  f"by `{author}`\n"
-#                  f"See commit detail [here]({escaped_url})"
-#              )
-#
-#          print(msg_body)
-#          ')
-#
-#          curl -v -F chat_id=${CHANNEL_ID} \
-#                  -F message_thread_id=39 \
-#                  -F document=@"${ZIP_FILE}" \
-#                  -F parse_mode="MarkdownV2" \
-#                  -F caption="${ESCAPED_CAPTION}" \
-#                  https://api.telegram.org/bot${BOT_TOKEN}/sendDocument
-
       - name: 上传到 DUFS
         shell: pwsh
         env:
@@ -163,8 +101,6 @@ jobs:
           $base = $Env:DUFS_URL.TrimEnd('/')
           $auth = "$($Env:DUFS_USER):$($Env:DUFS_PASSWORD)"
 
-#          curl --fail --silent --show-error --user $auth -T "update.json"     "$base/code/${{ env.PROGRAM_NAME }}/update.json"
           curl --fail --silent --show-error --user $auth -T "changelog.md"     "$base/code/${{ env.PROGRAM_NAME }}/changelog.md"
-#          curl --fail --silent --show-error --user $auth -T "MiNavBarImmerse_${{ steps.update_module_files.outputs.module_version }}.zip" "$base/code/${{ env.PROGRAM_NAME }}/${{ env.PROGRAM_NAME }}.zip"
           curl --fail --silent --show-error --user $auth -T "backup/backup.json" "$base/code/${{ env.PROGRAM_NAME }}/official.json"
           curl --fail --silent --show-error --user $auth -T "module/immerse_rules.json" "$base/code/${{ env.PROGRAM_NAME }}/custom.json"
