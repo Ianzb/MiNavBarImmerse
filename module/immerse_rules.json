@@ -61,8 +61,8 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
-        "com.byyoung.setting.HomePage.activitys.MainActivity": {
-          "mode": 0,
+        "l.ܰ۫֡": {
+          "mode": 1,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -83,8 +83,8 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
-        "com.byyoung.setting.HomePage.activitys.MainActivity": {
-          "mode": 0,
+        "l.ܰ۫֡": {
+          "mode": 1,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -1891,11 +1891,19 @@
       }
     },
     "com.byyoung.setting": {
-      "name": "MT管理器",
+      "name": "爱玩机工具箱",
       "enable": true,
       "activityRules": {
         "*": {
           "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.byyoung.setting.HomePage.activitys.MainActivity": {
+          "mode": 0,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -3616,8 +3624,8 @@
       "activityRules": {
         "*": {
           "mode": 1,
-          "color": 0,
-          "sf_sampling_mode": 1,
+          "color": null,
+          "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -5139,6 +5147,14 @@
       "name": "米游社",
       "enable": true,
       "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.luck.picture.lib.PictureSelectActivity2": {
           "mode": 1,
           "color": -1,
@@ -5149,7 +5165,7 @@
         },
         "com.mihoyo.hyperion.editor.container.PublishActivity": {
           "mode": 1,
-          "color": -1,
+          "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
@@ -5183,6 +5199,14 @@
           "mode": 2,
           "color": null,
           "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.mihoyo.platform.account.miyosummer.view.login.PorteLoginActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -12606,7 +12630,7 @@
           "appNavColorDisabled": 0
         },
         "com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity": {
-          "mode": 2,
+          "mode": 1,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
@@ -12656,7 +12680,15 @@
         "tv.danmaku.bili.ui.webview.MWebActivity": {
           "mode": 2,
           "color": null,
-          "sf_sampling_mode": 1,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.bilibili.biligame.ui.GameCenterHomeActivity": {
+          "mode": 1,
+          "color": null,
+          "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -12684,6 +12716,62 @@
     },
     "xzr.konabess": {
       "name": "KonaBess",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "jp.pxv.android": {
+      "name": "pixiv",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.rytong.ceair": {
+      "name": "东方航空",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.bw30.zsch": {
+      "name": "四川航空",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": -1,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
+    "com.kurogame.kjq": {
+      "name": "库街区",
       "enable": true,
       "activityRules": {
         "*": {
