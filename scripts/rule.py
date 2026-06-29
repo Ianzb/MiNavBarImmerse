@@ -133,13 +133,12 @@ class Rule:
     def toData(self, mode: str = "dict"):
         if mode in ["dict", "33", "30"]:
             sorted_rules = sorted(self.NBIRules.items(), key=lambda x: x[0])
-            result = {
-                "dataVersion": "999999",
-                "modules": "navigation_bar_immersive_application_config_new",
-                "modifyApps": "modifyApps",
-            }
+            result = {}
             if self.name:
                 result["name"] = self.name
+            result["dataVersion"] = "999999"
+            result["modules"] = "navigation_bar_immersive_application_config_new"
+            result["modifyApps"] = "modifyApps"
             if self.NBIRules:
                 result["NBIRules"] = {package_name: rule.toData(mode) for package_name, rule in sorted_rules}
             return json.dumps(result, indent=2, ensure_ascii=False)
