@@ -106,4 +106,5 @@ jobs:
 
           curl --fail --silent --show-error --user $auth -T "update.json"     "$base/code/${{ env.PROGRAM_NAME }}/update.json"
           curl --fail --silent --show-error --user $auth -T "changelog.md"     "$base/code/${{ env.PROGRAM_NAME }}/changelog.md"
+          curl --fail --silent --show-error --user $auth -T "backup/backup.json" "$base/code/${{ env.PROGRAM_NAME }}/official.json"
           curl --fail --silent --show-error --user $auth -T "rules/immerse_rules.json" "$base/code/${{ env.PROGRAM_NAME }}/custom.json"
