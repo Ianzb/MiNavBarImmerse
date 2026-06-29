@@ -85,6 +85,15 @@ jobs:
 
           echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
 
+      - name: 上传到 Release
+        uses: softprops/action-gh-release@v2.6.1
+        with:
+          name: HyperNavBarRules_${{ steps.update_version.outputs.VERSION }}
+          tag_name: v${{ steps.update_version.outputs.VERSION }}
+          files: rules/immerse_rules.json
+          token: ${{ secrets.GITHUB_TOKEN }}
+          generate_release_notes: true
+
       - name: 上传到 DUFS
         shell: pwsh
         env:
