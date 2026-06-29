@@ -123,30 +123,23 @@ class AppRule:
 
 
 class Rule:
-    def __init__(self, mode: str, NBIRules: dict | list = None, **args):
+    def __init__(self, mode: str, name: str = "", NBIRules: dict | list = None, **args):
+        self.name = name
         if mode in "22":
             self.NBIRules = {data["@name"]: AppRule.fromData(mode, data["@name"], data) for data in NBIRules} if NBIRules else {}
         else:
             self.NBIRules = {package_name: AppRule.fromData(mode, package_name, data) for package_name, data in NBIRules.items()} if NBIRules else {}
 
     def toData(self, mode: str = "dict"):
-        if mode in "dict":
+        if mode in ["dict", "33", "30"]:
             sorted_rules = sorted(self.NBIRules.items(), key=lambda x: x[0])
             result = {
                 "dataVersion": "999999",
                 "modules": "navigation_bar_immersive_application_config_new",
                 "modifyApps": "modifyApps",
             }
-            if self.NBIRules:
-                result["NBIRules"] = {package_name: rule.toData(mode) for package_name, rule in sorted_rules}
-            return result
-        elif mode in ["33", "30"]:
-            sorted_rules = sorted(self.NBIRules.items(), key=lambda x: x[0])
-            result = {
-                "dataVersion": "999999",
-                "modules": "navigation_bar_immersive_application_config_new",
-                "modifyApps": "modifyApps",
-            }
+            if self.name:
+                result["name"] = self.name
             if self.NBIRules:
                 result["NBIRules"] = {package_name: rule.toData(mode) for package_name, rule in sorted_rules}
             return json.dumps(result, indent=2, ensure_ascii=False)

@@ -1,22 +1,18 @@
 <div align="center">
 
-# 小米小白条沉浸优化
+# HyperNavBar Rules
 
-### MiNavBarImmerse
+### HyperNavBar 规则列表
 
-[文档](
-document.md) | [更新日志](changelog.md) | [Telegram 群组](trguild_url)
+[文档](document.md) | [更新日志](changelog.md) | [Telegram 群组](https://t.me/HyperNavBar)
 
-[![GitHub License](https://img.shields.io/github/license/Ianzb/MiNavBarImmerse)](LICENSE)
-[![GitHub Issues](https://img.shields.io/github/issues/Ianzb/MiNavBarImmerse)](
-https://github.com/Ianzb/MiNavBarImmerse/issues)
-[![GitHub PRs](https://img.shields.io/github/issues-pr/Ianzb/MiNavBarImmerse)](
-https://github.com/Ianzb/MiNavBarImmerse/pulls)
-[![GitHub Downloads)](https://img.shields.io/github/downloads/Ianzb/MiNavBarImmerse/latest/total)](https://github.com/Ianzb/MiNavBarImmerse/releases/latest)
+[![GitHub License](https://img.shields.io/github/license/Ianzb/HyperNavBar)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/Ianzb/HyperNavBar)](https://github.com/Ianzb/HyperNavBar/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/Ianzb/HyperNavBar)](https://github.com/Ianzb/HyperNavBar/pulls)
 
 </div>
 
-**小米小白条沉浸优化（MiNavBarImmerse）** 是一个通过替换 **Xiaomi HyperOS 2.2 - 3.3** 系统内的第三方应用手势提示线配置文件，实现第三方应用内手势提示线沉浸优化的 **Magisk / KernelSU 模块**
+**HyperNavBar Rules** 是 [HyperNavBar](https://github.com/Ianzb/HyperNavBar)的维护规则列表，用于管理第三方应用的导航栏沉浸优化规则。
 
 <br>
 
@@ -30,21 +26,18 @@ https://github.com/Ianzb/MiNavBarImmerse/pulls)
 
 # 如何使用
 
-### 安装模块
+### 下载规则
 
-[前往 Release](https://github.com/Ianzb/MiNavBarImmerse/releases/latest) 下载最新构建的版本，随后在 Root 管理器内刷入模块并重启设备即可生效
+[前往 Release](https://github.com/Ianzb/HyperNavBar/releases/latest) 下载最新构建的规则文件，或通过 DUFS 获取：
 
-### 升级模块
+- `official.json` - 系统原始配置
+- `custom.json` - 自定义优化规则
 
-安装模块更新后，重启应用新版配置文件
+### 使用方式
 
-<br>
-
-# 使用要求
-
-- 搭载 Xiaomi HyperOS 2.2 - 3.3 的机型
-
-- 解锁 BootLoader，获取 Root 权限，并使用能够刷入支持 Magisk 模块标准的管理器
+1. 安装 [HyperNavBar](https://github.com/Ianzb/HyperNavBar) 应用
+2. 导入规则文件或从预设列表获取
+3. 应用规则即可生效
 
 <br>
 
@@ -52,34 +45,25 @@ https://github.com/Ianzb/MiNavBarImmerse/pulls)
 
 ### 相关信息
 
-[点击此处](list.csv) 查看已适配的应用列表  
 [点击此处](document.md) 查看适配教程和说明  
-[点击此处](changelog.md) 查看模块更新日志  
-[前往 Telegram 群组](https://t.me/MiNavBarImmerse) 与其他贡献者交流，或通过群组 Bot 下载最新构建  
+[点击此处](changelog.md) 查看规则更新日志  
+[前往 Telegram 群组](https://t.me/HyperNavBar) 与其他贡献者交流
 
 ### 遇到问题？
-[前往 Issue](https://github.com/Ianzb/MiNavBarImmerse/issues) 或 [Telegram 群组](https://t.me/MiNavBarImmerse) 提出适配应用要求，可根据 [此处](./document.md#如何正确反馈问题) 的指引
+
+[前往 Issue](https://github.com/Ianzb/HyperNavBar/issues) 或 [Telegram 群组](https://t.me/HyperNavBar) 提出适配应用要求
 
 ## 我想贡献！
 
-[提交 Pull Request](https://github.com/Ianzb/MiNavBarImmerse/pulls) 参与仓库贡献  
-[前往 Discussions](https://github.com/Ianzb/MiNavBarImmerse/discussions) 查看其它适配经验分享，或分享你的经验  
-
->另外，如果需要频繁参与适配工作，也可发出 Issue 申请仓库协作者权限
+[提交 Pull Request](https://github.com/Ianzb/HyperNavBar/pulls) 参与仓库贡献  
+[前往 Discussions](https://github.com/Ianzb/HyperNavBar/discussions) 查看其它适配经验分享，或分享你的经验
 
 <br>
 
 # Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Ianzb/MiNavBarImmerse&type=Date)](https://www.star-history.com/#Ianzb/MiNavBarImmerse&Date)
-
-### 访问计数器（仅供娱乐）
-
-![Counter](
-https://count.getloli.com/@MiNavBarImmerse?name=MiNavBarImmerse&theme=minecraft&darkmode=auto)
-
-
+[![Star History Chart](https://api.star-history.com/svg?repos=Ianzb/HyperNavBar&type=Date)](https://www.star-history.com/#Ianzb/HyperNavBar&Date)
 
 [tg_badge]: https://img.shields.io/badge/TG-群组-4991D3?logo=telegram
-[tg_url]: https://t.me/MiNavBarImmerse
-[github_url]:https://ianzb.github.io/project/MiNavBarImmerse.html
+
+[tg_url]: https://t.me/HyperNavBar

@@ -1,18 +1,18 @@
 name: Check & Release
 
 env:
-  PROGRAM_NAME: "MiNavBarImmerse"
+  PROGRAM_NAME: "HyperNavBarRules"
 
 on:
   pull_request:
     branches: [main]
     paths:
-      - "module/immerse_rules.json"
+      - "rules/immerse_rules.json"
 
   push:
     branches: [main]
     paths:
-      - "module/**"
+      - "rules/**"
   workflow_dispatch:
 
 jobs:
@@ -50,37 +50,31 @@ jobs:
         run: |
           pip3 install -r scripts/requirements.txt
 
-      - name: 生成多版本配置文件
+      - name: 格式化并排序规则文件
         run: |
           python3 scripts/release.py
 
-      - name: 更新模块文件
-        id: update_module_files
+      - name: 更新版本信息
+        id: update_version
         run: |
-          FILE=module/module.prop
-
           VERSION=$(date +'%Y%m%d%H%M')
           VERSION_CODE=${{ github.run_number }}
 
           base=$(echo "${{ secrets.DUFS_URL }}" | sed 's:/*$::')
 
-          sed -i "s/^version=.*/version=$VERSION/" $FILE
-          sed -i "s/^versionCode=.*/versionCode=$VERSION_CODE/" $FILE
-
-          ZIP_NAME="MiNavBarImmerse_${VERSION}.zip"
           cat <<EOF > update.json
           {
             "version": "$VERSION",
             "versionCode": $VERSION_CODE,
-            "zipUrl": "$base/code/${{ env.PROGRAM_NAME }}/${{ env.PROGRAM_NAME }}.zip",
+            "officialUrl": "$base/code/${{ env.PROGRAM_NAME }}/official.json",
+            "customUrl": "$base/code/${{ env.PROGRAM_NAME }}/custom.json",
             "changelog": "$base/code/${{ env.PROGRAM_NAME }}/changelog.md"
           }
           EOF
 
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add module/module.prop \
-                  module/immerse_rules.json
+          git add rules/immerse_rules.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit, skip push."
@@ -89,7 +83,7 @@ jobs:
             git push
           fi
 
-          echo "MODULE_VERSION=$VERSION" >> $GITHUB_OUTPUT
+          echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
 
       - name: 上传到 DUFS
         shell: pwsh
@@ -101,6 +95,6 @@ jobs:
           $base = $Env:DUFS_URL.TrimEnd('/')
           $auth = "$($Env:DUFS_USER):$($Env:DUFS_PASSWORD)"
 
+          curl --fail --silent --show-error --user $auth -T "update.json"     "$base/code/${{ env.PROGRAM_NAME }}/update.json"
           curl --fail --silent --show-error --user $auth -T "changelog.md"     "$base/code/${{ env.PROGRAM_NAME }}/changelog.md"
-          curl --fail --silent --show-error --user $auth -T "backup/backup.json" "$base/code/${{ env.PROGRAM_NAME }}/official.json"
-          curl --fail --silent --show-error --user $auth -T "module/immerse_rules.json" "$base/code/${{ env.PROGRAM_NAME }}/custom.json"
+          curl --fail --silent --show-error --user $auth -T "rules/immerse_rules.json" "$base/code/${{ env.PROGRAM_NAME }}/custom.json"
