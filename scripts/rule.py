@@ -141,6 +141,8 @@ class Rule:
             result["modifyApps"] = "modifyApps"
             if self.NBIRules:
                 result["NBIRules"] = {package_name: rule.toData(mode) for package_name, rule in sorted_rules}
+            if mode == "dict":
+                return result
             return json.dumps(result, indent=2, ensure_ascii=False)
         elif mode == "22":
             sorted_rules = sorted(self.NBIRules.values(), key=lambda x: x.package_name)

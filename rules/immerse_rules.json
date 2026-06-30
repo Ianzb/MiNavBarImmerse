@@ -10087,6 +10087,14 @@
           "popupMode": 1,
           "appNavColorDisabled": 0
         },
+        "com.tencent.qqmusic.activity.base.FragmentActivityWithMinibar": {
+          "mode": 1,
+          "color": 1,
+          "sf_sampling_mode": 1,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
         "com.tencent.qqmusic.business.lockscreennew.LockScreenActivity": {
           "mode": 2,
           "color": null,
@@ -12639,9 +12647,9 @@
           "appNavColorDisabled": 0
         },
         "com.bilibili.bplus.followinglist.page.browser.ui.LightBrowserActivityV2": {
-          "mode": 2,
+          "mode": 0,
           "color": null,
-          "sf_sampling_mode": 1,
+          "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
