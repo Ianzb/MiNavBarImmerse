@@ -61,14 +61,6 @@
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
-        },
-        "l.ܰ۫֡": {
-          "mode": 1,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
         }
       }
     },
@@ -78,14 +70,6 @@
       "activityRules": {
         "*": {
           "mode": 2,
-          "color": null,
-          "sf_sampling_mode": 0,
-          "dialogMode": 1,
-          "popupMode": 1,
-          "appNavColorDisabled": 0
-        },
-        "l.ܰ۫֡": {
-          "mode": 1,
           "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
