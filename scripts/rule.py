@@ -130,7 +130,7 @@ class Rule:
         else:
             self.NBIRules = {package_name: AppRule.fromData(mode, package_name, data) for package_name, data in NBIRules.items()} if NBIRules else {}
 
-    def toData(self, mode: str = "dict"):
+    def toDict(self, mode: str = "dict"):
         if mode in ["dict", "33", "30"]:
             sorted_rules = sorted(self.NBIRules.items(), key=lambda x: x[0])
             result = {}
@@ -141,9 +141,7 @@ class Rule:
             result["modifyApps"] = "modifyApps"
             if self.NBIRules:
                 result["NBIRules"] = {package_name: rule.toData(mode) for package_name, rule in sorted_rules}
-            if mode == "dict":
-                return result
-            return json.dumps(result, indent=2, ensure_ascii=False)
+            return result
         elif mode == "22":
             sorted_rules = sorted(self.NBIRules.values(), key=lambda x: x.package_name)
             result = {
@@ -152,8 +150,12 @@ class Rule:
                     "package": [i.toData(mode) for i in sorted_rules]
                 }
             }
-            result = xmltodict.unparse(result, pretty=True, encoding="utf-8", short_empty_elements=True)
-            return result
+            return xmltodict.unparse(result, pretty=True, encoding="utf-8", short_empty_elements=True)
+
+    def toData(self, mode: str = "dict"):
+        if mode == "22":
+            return self.toDict("22")
+        return json.dumps(self.toDict(mode), indent=2, ensure_ascii=False)
 
     @classmethod
     def fromData(cls, mode: str, data):
@@ -172,7 +174,7 @@ class Rule:
         return self
 
     def updateFromRule(self, rule):
-        self.updateFromDict(rule.toData())
+        self.updateFromDict(rule.toDict())
         return self
 
 
