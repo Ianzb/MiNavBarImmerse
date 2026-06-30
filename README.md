@@ -4,7 +4,7 @@
 
 ### HyperNavBar 规则列表
 
-[文档](document.md) | [更新日志](changelog.md) | [Telegram 群组](https://t.me/HyperNavBar)
+[文档](document.md) | [适配教程](docs/tutorial.md) | [更新日志](changelog.md) | [Telegram 群组](https://t.me/HyperNavBar)
 
 [![GitHub License](https://img.shields.io/github/license/HyperNavBar/HyperNavBar)](LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/HyperNavBar/HyperNavBar)](https://github.com/HyperNavBar/HyperNavBar/issues)
@@ -45,7 +45,8 @@
 
 ### 相关信息
 
-[点击此处](document.md) 查看适配教程和说明  
+[点击此处](document.md) 查看完整适配说明  
+[点击此处](docs/tutorial.md) 查看适配教程  
 [点击此处](changelog.md) 查看规则更新日志  
 [前往 Telegram 群组](https://t.me/HyperNavBar) 与其他贡献者交流
 
