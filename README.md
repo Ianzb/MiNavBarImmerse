@@ -6,13 +6,13 @@
 
 [文档](document.md) | [更新日志](changelog.md) | [Telegram 群组](https://t.me/HyperNavBar)
 
-[![GitHub License](https://img.shields.io/github/license/Ianzb/HyperNavBar)](LICENSE)
-[![GitHub Issues](https://img.shields.io/github/issues/Ianzb/HyperNavBar)](https://github.com/Ianzb/HyperNavBar/issues)
-[![GitHub PRs](https://img.shields.io/github/issues-pr/Ianzb/HyperNavBar)](https://github.com/Ianzb/HyperNavBar/pulls)
+[![GitHub License](https://img.shields.io/github/license/HyperNavBar/HyperNavBar)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/HyperNavBar/HyperNavBar)](https://github.com/HyperNavBar/HyperNavBar/issues)
+[![GitHub PRs](https://img.shields.io/github/issues-pr/HyperNavBar/HyperNavBar)](https://github.com/HyperNavBar/HyperNavBar/pulls)
 
 </div>
 
-**HyperNavBar Rules** 是 [HyperNavBar](https://github.com/Ianzb/HyperNavBar)的维护规则列表，用于管理第三方应用的导航栏沉浸优化规则。
+**HyperNavBar Rules** 是 [HyperNavBar](https://github.com/HyperNavBar/HyperNavBar)的维护规则列表，用于管理第三方应用的导航栏沉浸优化规则。
 
 <br>
 
@@ -28,14 +28,14 @@
 
 ### 下载规则
 
-[前往 Release](https://github.com/Ianzb/HyperNavBar/releases/latest) 下载最新构建的规则文件，或通过 DUFS 获取：
+[前往 Release](https://github.com/HyperNavBar/HyperNavBar/releases/latest) 下载最新构建的规则文件，或通过 DUFS 获取：
 
 - `official.json` - 系统原始配置
 - `custom.json` - 自定义优化规则
 
 ### 使用方式
 
-1. 安装 [HyperNavBar](https://github.com/Ianzb/HyperNavBar) 应用
+1. 安装 [HyperNavBar](https://github.com/HyperNavBar/HyperNavBar) 应用
 2. 导入规则文件或从预设列表获取
 3. 应用规则即可生效
 
@@ -51,18 +51,18 @@
 
 ### 遇到问题？
 
-[前往 Issue](https://github.com/Ianzb/HyperNavBar/issues) 或 [Telegram 群组](https://t.me/HyperNavBar) 提出适配应用要求
+[前往 Issue](https://github.com/HyperNavBar/HyperNavBar/issues) 或 [Telegram 群组](https://t.me/HyperNavBar) 提出适配应用要求
 
 ## 我想贡献！
 
-[提交 Pull Request](https://github.com/Ianzb/HyperNavBar/pulls) 参与仓库贡献  
-[前往 Discussions](https://github.com/Ianzb/HyperNavBar/discussions) 查看其它适配经验分享，或分享你的经验
+[提交 Pull Request](https://github.com/HyperNavBar/HyperNavBar/pulls) 参与仓库贡献  
+[前往 Discussions](https://github.com/HyperNavBar/HyperNavBar/discussions) 查看其它适配经验分享，或分享你的经验
 
 <br>
 
 # Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Ianzb/HyperNavBar&type=Date)](https://www.star-history.com/#Ianzb/HyperNavBar&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=HyperNavBar/HyperNavBarRules&type=Date)](https://www.star-history.com/#HyperNavBar/HyperNavBarRules&Date)
 
 [tg_badge]: https://img.shields.io/badge/TG-群组-4991D3?logo=telegram
 
