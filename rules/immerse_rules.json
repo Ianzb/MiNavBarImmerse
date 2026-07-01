@@ -1,6 +1,6 @@
 {
   "name": "社区规则源",
-  "dataVersion": "260630",
+  "dataVersion": "260701",
   "modules": "navigation_bar_immersive_application_config_new",
   "modifyApps": "modifyApps",
   "NBIRules": {
@@ -3956,8 +3956,8 @@
           "appNavColorDisabled": 0
         },
         "com.jingdong.common.jdreactFramework.activities.JDReactNativeCommonActivity": {
-          "mode": 1,
-          "color": 1,
+          "mode": 2,
+          "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
@@ -6323,8 +6323,8 @@
           "appNavColorDisabled": 0
         },
         "com.meituan.msc.modules.container.MSCActivity": {
-          "mode": 1,
-          "color": -1,
+          "mode": 2,
+          "color": null,
           "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
@@ -8959,9 +8959,9 @@
           "appNavColorDisabled": 0
         },
         "com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity": {
-          "mode": 1,
-          "color": 1,
-          "sf_sampling_mode": 1,
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -9297,7 +9297,7 @@
         "com.taobao.tao.welcome.Welcome": {
           "mode": 0,
           "color": null,
-          "sf_sampling_mode": 0,
+          "sf_sampling_mode": 1,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
@@ -9361,7 +9361,7 @@
         "com.taobao.weex.weexv2.page.WeexV2Activity": {
           "mode": 2,
           "color": null,
-          "sf_sampling_mode": 1,
+          "sf_sampling_mode": 0,
           "dialogMode": 1,
           "popupMode": 1,
           "appNavColorDisabled": 0
