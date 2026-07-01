@@ -1263,6 +1263,52 @@
         }
       }
     },
+    "com.atour.atourlife": {
+      "name": "亚朵",
+      "enable": true,
+      "activityRules": {
+        "*": {
+          "mode": 1,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.atour.atourlife.activity.TypeMsgCodeActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.atour.atourlife.activity.UserLoginByMsgActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.atour.atourlife.login.activity.UserLoginActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        },
+        "com.atour.atourlife.order.detail.activity.OrderActivity": {
+          "mode": 2,
+          "color": null,
+          "sf_sampling_mode": 0,
+          "dialogMode": 1,
+          "popupMode": 1,
+          "appNavColorDisabled": 0
+        }
+      }
+    },
     "com.autonavi.minimap": {
       "name": "高德地图",
       "enable": true,
